@@ -26,7 +26,7 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
-def parse_points(value: str):
+def parse_number(value: str):
     value = value.replace(",", "").strip()
     match = re.search(r"-?\d+", value)
     return int(match.group()) if match else None
@@ -36,9 +36,6 @@ def parse_rankings(tour: str, html: str):
     soup = BeautifulSoup(html, "html.parser")
     players = []
 
-    # live-tennis.eu renders the ranking as an HTML table. Prefer rows from
-    # tables containing the ranking headers, while remaining tolerant of
-    # minor markup changes.
     tables = soup.find_all("table")
     ranking_table = None
     for table in tables:
@@ -52,63 +49,47 @@ def parse_rankings(tour: str, html: str):
 
     for row in ranking_table.find_all("tr"):
         cells = [clean_text(cell.get_text(" ", strip=True)) for cell in row.find_all(["td", "th"])]
-        if not cells:
-            continue
-
-        # Skip header rows.
-        if any(cell.lower() in {"player", "pts", "rank", "#"} for cell in cells):
+        if len(cells) < 5:
             continue
 
         rank_match = re.match(r"^(\d+)", cells[0])
         if not rank_match:
             continue
-
         rank = int(rank_match.group(1))
 
-        # The exact column positions have changed slightly over time, so
-        # identify the player/country/points fields heuristically.
-        points_idx = None
-        for i, cell in enumerate(cells):
-            if re.fullmatch(r"[\d,]+", cell):
-                points_idx = i
-                break
-
-        if points_idx is None:
+        country_idx = next(
+            (i for i, cell in enumerate(cells) if re.fullmatch(r"[A-Z]{3}", cell)),
+            None,
+        )
+        if country_idx is None or country_idx < 2 or country_idx + 1 >= len(cells):
             continue
 
-        # Country codes are normally 3 uppercase letters.
-        country = None
-        country_idx = None
-        for i, cell in enumerate(cells):
-            if re.fullmatch(r"[A-Z]{3}", cell):
-                country = cell
-                country_idx = i
-                break
-
-        if country_idx is not None and country_idx > 0:
-            player_name = cells[country_idx - 1]
-        elif len(cells) > 1:
-            player_name = cells[1]
-        else:
-            continue
-
-        # Remove visual markers such as CH/NCH that can appear before names.
+        player_name = cells[country_idx - 1]
         player_name = re.sub(r"\b(?:CH|NCH)\b", "", player_name).strip()
         player_name = re.sub(r"\s+", " ", player_name)
+
+        # In the official ranking table, Pts is immediately after Ctry.
+        points = parse_number(cells[country_idx + 1])
+        if points is None:
+            continue
+
+        change = None
+        if country_idx + 2 < len(cells):
+            change = parse_number(cells[country_idx + 2])
 
         players.append(
             {
                 "rank": rank,
                 "player": player_name,
-                "country": country,
-                "points": parse_points(cells[points_idx]),
+                "country": cells[country_idx],
+                "points": points,
+                "change": change,
             }
         )
 
     if not players:
         raise RuntimeError(f"Parsed zero players from {tour} ranking")
 
-    # Guard against a silently broken parser returning duplicate ranks.
     ranks = [p["rank"] for p in players]
     if len(ranks) != len(set(ranks)):
         raise RuntimeError(f"Duplicate ranks detected in {tour} ranking")
