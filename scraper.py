@@ -27,12 +27,6 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
-def parse_number(value: str):
-    value = value.replace(" ", "").replace("\u00a0", "").replace(",", "").strip()
-    match = re.search(r"-?\d+", value)
-    return int(match.group()) if match else None
-
-
 def find_ranking_table(soup: BeautifulSoup, tour: str):
     candidates = []
     for table in soup.find_all("table"):
@@ -63,9 +57,10 @@ def parse_rankings(tour: str, html: str):
 
     for row in table.find_all("tr"):
         cells = [clean_text(c.get_text(" ", strip=True)) for c in row.find_all("td")]
-        if len(cells) < 4:
+        if len(cells) < 2:
             continue
 
+        # The first cell is the ranking position.
         rank_match = re.fullmatch(r"(\d+)", cells[0].replace(".", "").strip())
         if not rank_match:
             continue
@@ -74,54 +69,30 @@ def parse_rankings(tour: str, html: str):
         if rank > MAX_RANK:
             continue
 
-        country_idx = None
-        for i in range(1, min(len(cells) - 1, 6)):
-            if re.fullmatch(r"[A-Z]{3}", cells[i]):
-                country_idx = i
-                break
-
-        if country_idx is None or country_idx < 2:
+        # The player name is the cell immediately after the rank.
+        # Do not use country/points columns: they caused the player field
+        # to contain the player's age (e.g. "29") in the previous parser.
+        player_name = cells[1]
+        if not player_name:
             continue
 
-        player_name = cells[country_idx - 1]
-        player_name = re.sub(r"\b(?:CH|NCH)\b", "", player_name).strip()
-        if not player_name or player_name.lower() in {"nazwisko", "zawodnik", "zawodniczka"}:
+        # The ranking page may contain repeated responsive rows. Keep the
+        # first valid occurrence for each rank.
+        if any(player["rank"] == rank for player in players):
             continue
 
-        points = parse_number(cells[country_idx + 1])
-        if points is None:
-            continue
-
-        change = None
-        if country_idx + 2 < len(cells):
-            raw_change = cells[country_idx + 2]
-            if re.fullmatch(r"[+-]\s*\d+", raw_change):
-                change = parse_number(raw_change)
-
-        players.append(
-            {
-                "rank": rank,
-                "player": player_name,
-                "country": cells[country_idx],
-                "points": points,
-                "change": change,
-            }
-        )
+        players.append({
+            "rank": rank,
+            "player": player_name,
+        })
 
     if not players:
         raise RuntimeError(f"Parsed zero players from {tour} ranking")
 
-    # The source can contain duplicate rows caused by responsive/secondary
-    # markup. We only store the first valid occurrence of each top-500 rank.
-    by_rank = {}
-    for player in players:
-        if player["rank"] not in by_rank:
-            by_rank[player["rank"]] = player
-
-    players = [by_rank[rank] for rank in sorted(by_rank)]
+    players.sort(key=lambda player: player["rank"])
 
     if len(players) < MAX_RANK:
-        missing = sorted(set(range(1, MAX_RANK + 1)) - set(by_rank))
+        missing = sorted(set(range(1, MAX_RANK + 1)) - {p["rank"] for p in players})
         preview = ", ".join(map(str, missing[:10]))
         raise RuntimeError(
             f"Incomplete {tour} ranking: parsed {len(players)}/{MAX_RANK} players; "
