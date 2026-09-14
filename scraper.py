@@ -6,10 +6,9 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-BASE_URL = "https://live-tennis.eu/en"
 RANKING_URLS = {
-    "ATP": f"{BASE_URL}/official-atp-ranking",
-    "WTA": f"{BASE_URL}/official-wta-ranking",
+    "ATP": "https://live-tennis.eu/pl/oficjalny-ranking-atp",
+    "WTA": "https://live-tennis.eu/pl/oficjalny-ranking-wta",
 }
 OUTPUT_DIR = Path("data")
 
@@ -18,7 +17,8 @@ HEADERS = {
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/140.0 Safari/537.36"
-    )
+    ),
+    "Accept-Language": "pl-PL,pl;q=0.9,en;q=0.8",
 }
 
 
@@ -27,55 +27,76 @@ def clean_text(value: str) -> str:
 
 
 def parse_number(value: str):
-    value = value.replace(",", "").strip()
+    value = value.replace(" ", "").replace("\u00a0", "").replace(",", "").strip()
     match = re.search(r"-?\d+", value)
     return int(match.group()) if match else None
 
 
-def parse_rankings(tour: str, html: str):
-    soup = BeautifulSoup(html, "html.parser")
-    players = []
+def find_ranking_table(soup: BeautifulSoup, tour: str):
+    candidates = []
+    for table in soup.find_all("table"):
+        text = clean_text(table.get_text(" ", strip=True)).lower()
+        score = 0
+        if "pkt" in text:
+            score += 2
+        if "kraj" in text:
+            score += 2
+        if "nazwisko" in text or "zawodniczka" in text or "zawodnik" in text:
+            score += 2
+        if "ranking" in text:
+            score += 1
+        if score >= 4:
+            candidates.append((score, table))
 
-    tables = soup.find_all("table")
-    ranking_table = None
-    for table in tables:
-        header = clean_text(table.get_text(" ", strip=True)).lower()
-        if "player" in header and "pts" in header:
-            ranking_table = table
-            break
-
-    if ranking_table is None:
+    if not candidates:
         raise RuntimeError(f"Could not find {tour} ranking table")
 
-    for row in ranking_table.find_all("tr"):
-        cells = [clean_text(cell.get_text(" ", strip=True)) for cell in row.find_all(["td", "th"])]
-        if len(cells) < 5:
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    return candidates[0][1]
+
+
+def parse_rankings(tour: str, html: str):
+    soup = BeautifulSoup(html, "html.parser")
+    table = find_ranking_table(soup, tour)
+    players = []
+
+    for row in table.find_all("tr"):
+        cells = [clean_text(c.get_text(" ", strip=True)) for c in row.find_all("td")]
+        if len(cells) < 4:
             continue
 
-        rank_match = re.match(r"^(\d+)", cells[0])
+        # The first cell must be the ranking position. This prevents
+        # tournament/news rows from being mistaken for ranking entries.
+        rank_match = re.fullmatch(r"(\d+)", cells[0].replace(".", "").strip())
         if not rank_match:
             continue
         rank = int(rank_match.group(1))
 
-        country_idx = next(
-            (i for i, cell in enumerate(cells) if re.fullmatch(r"[A-Z]{3}", cell)),
-            None,
-        )
-        if country_idx is None or country_idx < 2 or country_idx + 1 >= len(cells):
+        # Official live-tennis.eu tables put country immediately before points.
+        country_idx = None
+        for i in range(1, min(len(cells) - 1, 6)):
+            if re.fullmatch(r"[A-Z]{3}", cells[i]):
+                country_idx = i
+                break
+
+        if country_idx is None or country_idx < 2:
             continue
 
         player_name = cells[country_idx - 1]
         player_name = re.sub(r"\b(?:CH|NCH)\b", "", player_name).strip()
-        player_name = re.sub(r"\s+", " ", player_name)
+        if not player_name or player_name.lower() in {"nazwisko", "zawodnik", "zawodniczka"}:
+            continue
 
-        # In the official ranking table, Pts is immediately after Ctry.
         points = parse_number(cells[country_idx + 1])
         if points is None:
             continue
 
         change = None
         if country_idx + 2 < len(cells):
-            change = parse_number(cells[country_idx + 2])
+            raw_change = cells[country_idx + 2]
+            # +/- is signed movement; tournament text is not a valid change.
+            if re.fullmatch(r"[+-]\s*\d+", raw_change):
+                change = parse_number(raw_change)
 
         players.append(
             {
@@ -90,11 +111,24 @@ def parse_rankings(tour: str, html: str):
     if not players:
         raise RuntimeError(f"Parsed zero players from {tour} ranking")
 
-    ranks = [p["rank"] for p in players]
-    if len(ranks) != len(set(ranks)):
-        raise RuntimeError(f"Duplicate ranks detected in {tour} ranking")
+    # Keep only the first occurrence of each rank and fail loudly if the
+    # source contains conflicting entries. Normal rankings should be unique.
+    by_rank = {}
+    for player in players:
+        existing = by_rank.get(player["rank"])
+        if existing is None:
+            by_rank[player["rank"]] = player
+        elif existing != player:
+            raise RuntimeError(f"Conflicting entries detected for rank {player['rank']} in {tour}")
 
-    players.sort(key=lambda p: p["rank"])
+    players = [by_rank[rank] for rank in sorted(by_rank)]
+
+    # The source currently exposes the full ranking (1000 entries). Require
+    # a substantial result so a changed/blocked page cannot silently produce
+    # a partial JSON file.
+    if len(players) < 900:
+        raise RuntimeError(f"Suspiciously short {tour} ranking: only {len(players)} players parsed")
+
     return players
 
 
