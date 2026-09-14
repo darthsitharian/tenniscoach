@@ -11,6 +11,7 @@ RANKING_URLS = {
     "WTA": "https://live-tennis.eu/pl/oficjalny-ranking-wta",
 }
 OUTPUT_DIR = Path("data")
+MAX_RANK = 500
 
 HEADERS = {
     "User-Agent": (
@@ -65,14 +66,14 @@ def parse_rankings(tour: str, html: str):
         if len(cells) < 4:
             continue
 
-        # The first cell must be the ranking position. This prevents
-        # tournament/news rows from being mistaken for ranking entries.
         rank_match = re.fullmatch(r"(\d+)", cells[0].replace(".", "").strip())
         if not rank_match:
             continue
         rank = int(rank_match.group(1))
 
-        # Official live-tennis.eu tables put country immediately before points.
+        if rank > MAX_RANK:
+            continue
+
         country_idx = None
         for i in range(1, min(len(cells) - 1, 6)):
             if re.fullmatch(r"[A-Z]{3}", cells[i]):
@@ -94,7 +95,6 @@ def parse_rankings(tour: str, html: str):
         change = None
         if country_idx + 2 < len(cells):
             raw_change = cells[country_idx + 2]
-            # +/- is signed movement; tournament text is not a valid change.
             if re.fullmatch(r"[+-]\s*\d+", raw_change):
                 change = parse_number(raw_change)
 
@@ -111,25 +111,24 @@ def parse_rankings(tour: str, html: str):
     if not players:
         raise RuntimeError(f"Parsed zero players from {tour} ranking")
 
-    # Keep only the first occurrence of each rank and fail loudly if the
-    # source contains conflicting entries. Normal rankings should be unique.
+    # The source can contain duplicate rows caused by responsive/secondary
+    # markup. We only store the first valid occurrence of each top-500 rank.
     by_rank = {}
     for player in players:
-        existing = by_rank.get(player["rank"])
-        if existing is None:
+        if player["rank"] not in by_rank:
             by_rank[player["rank"]] = player
-        elif existing != player:
-            raise RuntimeError(f"Conflicting entries detected for rank {player['rank']} in {tour}")
 
     players = [by_rank[rank] for rank in sorted(by_rank)]
 
-    # The source currently exposes the full ranking (1000 entries). Require
-    # a substantial result so a changed/blocked page cannot silently produce
-    # a partial JSON file.
-    if len(players) < 900:
-        raise RuntimeError(f"Suspiciously short {tour} ranking: only {len(players)} players parsed")
+    if len(players) < MAX_RANK:
+        missing = sorted(set(range(1, MAX_RANK + 1)) - set(by_rank))
+        preview = ", ".join(map(str, missing[:10]))
+        raise RuntimeError(
+            f"Incomplete {tour} ranking: parsed {len(players)}/{MAX_RANK} players; "
+            f"missing ranks include {preview}"
+        )
 
-    return players
+    return players[:MAX_RANK]
 
 
 def fetch_ranking(tour: str, url: str):
