@@ -42,6 +42,50 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def decode_response(response: requests.Response) -> str:
+    """Decode the HTML using the charset declared by the page when available."""
+    content = response.content
+
+    # Prefer an explicit charset from HTTP headers.
+    content_type = response.headers.get("Content-Type", "")
+    charset_match = re.search(r"charset\s*=\s*[\"']?\s*([^;\s\"']+)", content_type, re.I)
+    if charset_match:
+        encoding = charset_match.group(1).strip()
+        try:
+            return content.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            pass
+
+    # HTML may declare its charset in a meta tag. Decode a small prefix as
+    # ASCII-compatible text first so the declaration itself can be inspected.
+    head = content[:8192].decode("ascii", errors="ignore")
+    meta_match = re.search(
+        r"<meta[^>]+charset\s*=\s*[\"']?\s*([^\"'\s/>]+)",
+        head,
+        re.I,
+    )
+    if not meta_match:
+        meta_match = re.search(
+            r"<meta[^>]+content\s*=\s*[\"'][^\"']*?charset\s*=\s*([^\"'\s;>]+)",
+            head,
+            re.I,
+        )
+    if meta_match:
+        encoding = meta_match.group(1).strip()
+        try:
+            return content.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            pass
+
+    # live-tennis.eu currently serves UTF-8. Use it as the safe fallback.
+    try:
+        return content.decode("utf-8")
+    except UnicodeDecodeError:
+        # Last resort: let Requests' detector choose the encoding.
+        detected = response.apparent_encoding or "utf-8"
+        return content.decode(detected, errors="replace")
+
+
 def normalize_player_name(value: str) -> str:
     value = unicodedata.normalize("NFKD", value)
     value = "".join(char for char in value if not unicodedata.combining(char))
@@ -78,10 +122,6 @@ def parse_rankings(tour: str, html: str):
     table = find_ranking_table(soup, tour)
     players_by_rank = {}
 
-    # Parse the complete visible row text instead of relying on a specific
-    # number/order of <td> elements. live-tennis.eu includes age, country,
-    # points and tournament columns, and its markup can vary between runs.
-    # The stable part is: rank + player name + age + country + points.
     row_pattern = re.compile(
         r"^(\d+)\s+(.+?)\s+\d{1,3}\s+[A-Z]{3}\s+\d+(?:\s|$)"
     )
@@ -100,8 +140,6 @@ def parse_rankings(tour: str, html: str):
         if not player_name:
             continue
 
-        # Keep the first valid occurrence if the page contains duplicate
-        # responsive/secondary markup for the same ranking position.
         players_by_rank.setdefault(
             rank,
             {
@@ -129,7 +167,8 @@ def parse_rankings(tour: str, html: str):
 def fetch_ranking(tour: str, url: str):
     response = requests.get(url, headers=HEADERS, timeout=30)
     response.raise_for_status()
-    return parse_rankings(tour, response.text)
+    html = decode_response(response)
+    return parse_rankings(tour, html)
 
 
 def save_ranking(tour: str, players):
