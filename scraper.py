@@ -1,5 +1,6 @@
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -22,9 +23,29 @@ HEADERS = {
     "Accept-Language": "pl-PL,pl;q=0.9,en;q=0.8",
 }
 
+SPECIAL_CHAR_MAP = str.maketrans({
+    "Ł": "L",
+    "ł": "l",
+    "Đ": "D",
+    "đ": "d",
+    "Ø": "O",
+    "ø": "o",
+    "Æ": "AE",
+    "æ": "ae",
+    "Œ": "OE",
+    "œ": "oe",
+    "ß": "ss",
+})
+
 
 def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
+
+
+def normalize_player_name(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value)
+    value = "".join(char for char in value if not unicodedata.combining(char))
+    return value.translate(SPECIAL_CHAR_MAP)
 
 
 def find_ranking_table(soup: BeautifulSoup, tour: str):
@@ -75,7 +96,7 @@ def parse_rankings(tour: str, html: str):
         if rank > MAX_RANK:
             continue
 
-        player_name = match.group(2).strip()
+        player_name = normalize_player_name(match.group(2).strip())
         if not player_name:
             continue
 
