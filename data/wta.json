@@ -1,6 +1,3507 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-09-14T10:41:06.182708+00:00",
   "tour": "WTA",
-  "source": "https://live-tennis.eu/en/official-wta-ranking",
-  "ranking": []
+  "source": "https://live-tennis.eu/pl/oficjalny-ranking-wta",
+  "ranking": [
+    {
+      "rank": 1,
+      "player": "27",
+      "country": "KAZ",
+      "points": 9901,
+      "change": 1
+    },
+    {
+      "rank": 2,
+      "player": "28",
+      "country": "BLR",
+      "points": 7875,
+      "change": -1
+    },
+    {
+      "rank": 3,
+      "player": "32",
+      "country": "USA",
+      "points": 7265,
+      "change": null
+    },
+    {
+      "rank": 4,
+      "player": "22",
+      "country": "USA",
+      "points": 7244,
+      "change": null
+    },
+    {
+      "rank": 5,
+      "player": "19",
+      "country": "RUS",
+      "points": 5743,
+      "change": null
+    },
+    {
+      "rank": 6,
+      "player": "21",
+      "country": "CZE",
+      "points": 5328,
+      "change": null
+    },
+    {
+      "rank": 7,
+      "player": "32",
+      "country": "UKR",
+      "points": 4809,
+      "change": 2
+    },
+    {
+      "rank": 8,
+      "player": "30",
+      "country": "CZE",
+      "points": 4683,
+      "change": -1
+    },
+    {
+      "rank": 9,
+      "player": "25",
+      "country": "POL",
+      "points": 4619,
+      "change": -1
+    },
+    {
+      "rank": 10,
+      "player": "24",
+      "country": "UKR",
+      "points": 3980,
+      "change": 1
+    },
+    {
+      "rank": 11,
+      "player": "25",
+      "country": "USA",
+      "points": 3363,
+      "change": -1
+    },
+    {
+      "rank": 12,
+      "player": "29",
+      "country": "SUI",
+      "points": 2935,
+      "change": null
+    },
+    {
+      "rank": 13,
+      "player": "22",
+      "country": "RUS",
+      "points": 2588,
+      "change": 3
+    },
+    {
+      "rank": 14,
+      "player": "20",
+      "country": "CAN",
+      "points": 2521,
+      "change": 1
+    },
+    {
+      "rank": 15,
+      "player": "36",
+      "country": "ROU",
+      "points": 2464,
+      "change": 2
+    },
+    {
+      "rank": 16,
+      "player": "18",
+      "country": "USA",
+      "points": 2390,
+      "change": -2
+    },
+    {
+      "rank": 17,
+      "player": "28",
+      "country": "JPN",
+      "points": 2306,
+      "change": -4
+    },
+    {
+      "rank": 18,
+      "player": "21",
+      "country": "PHI",
+      "points": 2276,
+      "change": null
+    },
+    {
+      "rank": 19,
+      "player": "30",
+      "country": "BEL",
+      "points": 2165,
+      "change": 1
+    },
+    {
+      "rank": 20,
+      "player": "30",
+      "country": "ITA",
+      "points": 2123,
+      "change": 1
+    },
+    {
+      "rank": 21,
+      "player": "31",
+      "country": "RUS",
+      "points": 2076,
+      "change": -2
+    },
+    {
+      "rank": 22,
+      "player": "27",
+      "country": "RUS",
+      "points": 2043,
+      "change": 1
+    },
+    {
+      "rank": 23,
+      "player": "31",
+      "country": "USA",
+      "points": 2029,
+      "change": 1
+    },
+    {
+      "rank": 24,
+      "player": "25",
+      "country": "USA",
+      "points": 2024,
+      "change": 3
+    },
+    {
+      "rank": 25,
+      "player": "25",
+      "country": "AUT",
+      "points": 1926,
+      "change": null
+    },
+    {
+      "rank": 26,
+      "player": "24",
+      "country": "POL",
+      "points": 1888,
+      "change": -4
+    },
+    {
+      "rank": 27,
+      "player": "28",
+      "country": "CZE",
+      "points": 1873,
+      "change": -1
+    },
+    {
+      "rank": 28,
+      "player": "20",
+      "country": "CZE",
+      "points": 1632,
+      "change": 2
+    },
+    {
+      "rank": 29,
+      "player": "26",
+      "country": "USA",
+      "points": 1573,
+      "change": -1
+    },
+    {
+      "rank": 30,
+      "player": "24",
+      "country": "FRA",
+      "points": 1551,
+      "change": 1
+    },
+    {
+      "rank": 31,
+      "player": "24",
+      "country": "CAN",
+      "points": 1454,
+      "change": 2
+    },
+    {
+      "rank": 32,
+      "player": "29",
+      "country": "LAT",
+      "points": 1452,
+      "change": null
+    },
+    {
+      "rank": 33,
+      "player": "31",
+      "country": "GRE",
+      "points": 1355,
+      "change": 2
+    },
+    {
+      "rank": 34,
+      "player": "20",
+      "country": "CZE",
+      "points": 1352,
+      "change": null
+    },
+    {
+      "rank": 35,
+      "player": "30",
+      "country": "CZE",
+      "points": 1294,
+      "change": 7
+    },
+    {
+      "rank": 36,
+      "player": "23",
+      "country": "DEN",
+      "points": 1282,
+      "change": 2
+    },
+    {
+      "rank": 37,
+      "player": "30",
+      "country": "CRO",
+      "points": 1278,
+      "change": 2
+    },
+    {
+      "rank": 38,
+      "player": "30",
+      "country": "CZE",
+      "points": 1246,
+      "change": -9
+    },
+    {
+      "rank": 39,
+      "player": "24",
+      "country": "USA",
+      "points": 1230,
+      "change": -2
+    },
+    {
+      "rank": 40,
+      "player": "24",
+      "country": "CHN",
+      "points": 1195,
+      "change": 3
+    },
+    {
+      "rank": 41,
+      "player": "25",
+      "country": "UKR",
+      "points": 1191,
+      "change": 5
+    },
+    {
+      "rank": 42,
+      "player": "24",
+      "country": "UKR",
+      "points": 1170,
+      "change": 3
+    },
+    {
+      "rank": 43,
+      "player": "26",
+      "country": "UKR",
+      "points": 1165,
+      "change": 15
+    },
+    {
+      "rank": 44,
+      "player": "28",
+      "country": "ESP",
+      "points": 1164,
+      "change": -4
+    },
+    {
+      "rank": 45,
+      "player": "34",
+      "country": "CZE",
+      "points": 1121,
+      "change": 12
+    },
+    {
+      "rank": 46,
+      "player": "18",
+      "country": "AUT",
+      "points": 1119,
+      "change": 3
+    },
+    {
+      "rank": 47,
+      "player": "29",
+      "country": "UKR",
+      "points": 1112,
+      "change": 4
+    },
+    {
+      "rank": 48,
+      "player": "30",
+      "country": "EGY",
+      "points": 1105,
+      "change": 4
+    },
+    {
+      "rank": 49,
+      "player": "31",
+      "country": "GER",
+      "points": 1103,
+      "change": -1
+    },
+    {
+      "rank": 50,
+      "player": "27",
+      "country": "RUS",
+      "points": 1099,
+      "change": -3
+    },
+    {
+      "rank": 51,
+      "player": "24",
+      "country": "INA",
+      "points": 1090,
+      "change": -15
+    },
+    {
+      "rank": 52,
+      "player": "23",
+      "country": "CHN",
+      "points": 1083,
+      "change": 69
+    },
+    {
+      "rank": 53,
+      "player": "30",
+      "country": "GBR",
+      "points": 1062,
+      "change": 9
+    },
+    {
+      "rank": 54,
+      "player": "37",
+      "country": "CHN",
+      "points": 1055,
+      "change": null
+    },
+    {
+      "rank": 55,
+      "player": "28",
+      "country": "ROU",
+      "points": 1051,
+      "change": -11
+    },
+    {
+      "rank": 56,
+      "player": "28",
+      "country": "AUS",
+      "points": 1034,
+      "change": 15
+    },
+    {
+      "rank": 57,
+      "player": "28",
+      "country": "POL",
+      "points": 1032,
+      "change": -16
+    },
+    {
+      "rank": 58,
+      "player": "24",
+      "country": "TUR",
+      "points": 1027,
+      "change": -5
+    },
+    {
+      "rank": 59,
+      "player": "19",
+      "country": "CZE",
+      "points": 1014,
+      "change": -9
+    },
+    {
+      "rank": 60,
+      "player": "24",
+      "country": "USA",
+      "points": 1001,
+      "change": -5
+    },
+    {
+      "rank": 61,
+      "player": "22",
+      "country": "THA",
+      "points": 998,
+      "change": 15
+    },
+    {
+      "rank": 62,
+      "player": "22",
+      "country": "AUS",
+      "points": 997,
+      "change": 1
+    },
+    {
+      "rank": 63,
+      "player": "24",
+      "country": "COL",
+      "points": 993,
+      "change": -4
+    },
+    {
+      "rank": 64,
+      "player": "33",
+      "country": "SUI",
+      "points": 993,
+      "change": -8
+    },
+    {
+      "rank": 65,
+      "player": "28",
+      "country": "ROU",
+      "points": 991,
+      "change": -1
+    },
+    {
+      "rank": 66,
+      "player": "24",
+      "country": "USA",
+      "points": 990,
+      "change": -1
+    },
+    {
+      "rank": 67,
+      "player": "25",
+      "country": "ITA",
+      "points": 985,
+      "change": null
+    },
+    {
+      "rank": 68,
+      "player": "20",
+      "country": "AUS",
+      "points": 966,
+      "change": 4
+    },
+    {
+      "rank": 69,
+      "player": "29",
+      "country": "HUN",
+      "points": 961,
+      "change": 4
+    },
+    {
+      "rank": 70,
+      "player": "28",
+      "country": "ESP",
+      "points": 955,
+      "change": 17
+    },
+    {
+      "rank": 71,
+      "player": "22",
+      "country": "USA",
+      "points": 945,
+      "change": -11
+    },
+    {
+      "rank": 72,
+      "player": "25",
+      "country": "USA",
+      "points": 927,
+      "change": 7
+    },
+    {
+      "rank": 73,
+      "player": "27",
+      "country": "USA",
+      "points": 925,
+      "change": -7
+    },
+    {
+      "rank": 74,
+      "player": "34",
+      "country": "POL",
+      "points": 916,
+      "change": 8
+    },
+    {
+      "rank": 75,
+      "player": "20",
+      "country": "CRO",
+      "points": 915,
+      "change": 2
+    },
+    {
+      "rank": 76,
+      "player": "25",
+      "country": "UZB",
+      "points": 912,
+      "change": 16
+    },
+    {
+      "rank": 77,
+      "player": "24",
+      "country": "USA",
+      "points": 908,
+      "change": 1
+    },
+    {
+      "rank": 78,
+      "player": "31",
+      "country": "KAZ",
+      "points": 904,
+      "change": 6
+    },
+    {
+      "rank": 79,
+      "player": "23",
+      "country": "CRO",
+      "points": 894,
+      "change": 6
+    },
+    {
+      "rank": 80,
+      "player": "39",
+      "country": "GER",
+      "points": 894,
+      "change": 3
+    },
+    {
+      "rank": 81,
+      "player": "19",
+      "country": "RUS",
+      "points": 892,
+      "change": -12
+    },
+    {
+      "rank": 82,
+      "player": "25",
+      "country": "CHN",
+      "points": 889,
+      "change": -2
+    },
+    {
+      "rank": 83,
+      "player": "27",
+      "country": "HUN",
+      "points": 889,
+      "change": -15
+    },
+    {
+      "rank": 84,
+      "player": "22",
+      "country": "BEL",
+      "points": 887,
+      "change": -3
+    },
+    {
+      "rank": 85,
+      "player": "29",
+      "country": "AUS",
+      "points": 883,
+      "change": -24
+    },
+    {
+      "rank": 86,
+      "player": "23",
+      "country": "CZE",
+      "points": 877,
+      "change": -11
+    },
+    {
+      "rank": 87,
+      "player": "22",
+      "country": "UZB",
+      "points": 873,
+      "change": -1
+    },
+    {
+      "rank": 88,
+      "player": "24",
+      "country": "THA",
+      "points": 868,
+      "change": 6
+    },
+    {
+      "rank": 89,
+      "player": "23",
+      "country": "GBR",
+      "points": 845,
+      "change": -19
+    },
+    {
+      "rank": 90,
+      "player": "22",
+      "country": "ARG",
+      "points": 825,
+      "change": 1
+    },
+    {
+      "rank": 91,
+      "player": "28",
+      "country": "MEX",
+      "points": 819,
+      "change": -17
+    },
+    {
+      "rank": 92,
+      "player": "20",
+      "country": "AUS",
+      "points": 817,
+      "change": 8
+    },
+    {
+      "rank": 93,
+      "player": "23",
+      "country": "ESP",
+      "points": 809,
+      "change": 12
+    },
+    {
+      "rank": 94,
+      "player": "28",
+      "country": "RUS",
+      "points": 795,
+      "change": 1
+    },
+    {
+      "rank": 95,
+      "player": "24",
+      "country": "AUT",
+      "points": 795,
+      "change": -5
+    },
+    {
+      "rank": 96,
+      "player": "26",
+      "country": "USA",
+      "points": 790,
+      "change": 15
+    },
+    {
+      "rank": 97,
+      "player": "25",
+      "country": "SUI",
+      "points": 790,
+      "change": -8
+    },
+    {
+      "rank": 98,
+      "player": "30",
+      "country": "USA",
+      "points": 783,
+      "change": -2
+    },
+    {
+      "rank": 99,
+      "player": "24",
+      "country": "GER",
+      "points": 777,
+      "change": -1
+    },
+    {
+      "rank": 100,
+      "player": "27",
+      "country": "USA",
+      "points": 769,
+      "change": 10
+    },
+    {
+      "rank": 101,
+      "player": "23",
+      "country": "ESP",
+      "points": 745,
+      "change": -8
+    },
+    {
+      "rank": 102,
+      "player": "33",
+      "country": "AUS",
+      "points": 742,
+      "change": 1
+    },
+    {
+      "rank": 103,
+      "player": "23",
+      "country": "UZB",
+      "points": 728,
+      "change": -6
+    },
+    {
+      "rank": 104,
+      "player": "25",
+      "country": "JPN",
+      "points": 725,
+      "change": -5
+    },
+    {
+      "rank": 105,
+      "player": "20",
+      "country": "ESP",
+      "points": 719,
+      "change": 2
+    },
+    {
+      "rank": 106,
+      "player": "25",
+      "country": "GBR",
+      "points": 712,
+      "change": -2
+    },
+    {
+      "rank": 107,
+      "player": "29",
+      "country": "FRA",
+      "points": 708,
+      "change": 34
+    },
+    {
+      "rank": 108,
+      "player": "31",
+      "country": "FRA",
+      "points": 706,
+      "change": 19
+    },
+    {
+      "rank": 109,
+      "player": "24",
+      "country": "RUS",
+      "points": 699,
+      "change": -8
+    },
+    {
+      "rank": 110,
+      "player": "26",
+      "country": "UKR",
+      "points": 692,
+      "change": 3
+    },
+    {
+      "rank": 111,
+      "player": "30",
+      "country": "AUT",
+      "points": 677,
+      "change": 1
+    },
+    {
+      "rank": 112,
+      "player": "30",
+      "country": "GBR",
+      "points": 665,
+      "change": 19
+    },
+    {
+      "rank": 113,
+      "player": "23",
+      "country": "USA",
+      "points": 661,
+      "change": 2
+    },
+    {
+      "rank": 114,
+      "player": "16",
+      "country": "RUS",
+      "points": 643,
+      "change": 11
+    },
+    {
+      "rank": 115,
+      "player": "25",
+      "country": "JPN",
+      "points": 634,
+      "change": 29
+    },
+    {
+      "rank": 116,
+      "player": "23",
+      "country": "USA",
+      "points": 632,
+      "change": 6
+    },
+    {
+      "rank": 117,
+      "player": "38",
+      "country": "GER",
+      "points": 628,
+      "change": -15
+    },
+    {
+      "rank": 118,
+      "player": "18",
+      "country": "CZE",
+      "points": 628,
+      "change": -2
+    },
+    {
+      "rank": 119,
+      "player": "28",
+      "country": "ITA",
+      "points": 617,
+      "change": null
+    },
+    {
+      "rank": 120,
+      "player": "23",
+      "country": "LAT",
+      "points": 604,
+      "change": -11
+    },
+    {
+      "rank": 121,
+      "player": "24",
+      "country": "GBR",
+      "points": 597,
+      "change": 3
+    },
+    {
+      "rank": 122,
+      "player": "21",
+      "country": "GER",
+      "points": 591,
+      "change": 1
+    },
+    {
+      "rank": 123,
+      "player": "26",
+      "country": "USA",
+      "points": 591,
+      "change": -6
+    },
+    {
+      "rank": 124,
+      "player": "22",
+      "country": "GER",
+      "points": 590,
+      "change": 13
+    },
+    {
+      "rank": 125,
+      "player": "22",
+      "country": "CZE",
+      "points": 586,
+      "change": -7
+    },
+    {
+      "rank": 126,
+      "player": "19",
+      "country": "UKR",
+      "points": 586,
+      "change": 6
+    },
+    {
+      "rank": 127,
+      "player": "27",
+      "country": "ITA",
+      "points": 576,
+      "change": 8
+    },
+    {
+      "rank": 128,
+      "player": "33",
+      "country": "POL",
+      "points": 576,
+      "change": 1
+    },
+    {
+      "rank": 129,
+      "player": "26",
+      "country": "ESP",
+      "points": 574,
+      "change": 4
+    },
+    {
+      "rank": 130,
+      "player": "32",
+      "country": "BLR",
+      "points": 573,
+      "change": 6
+    },
+    {
+      "rank": 131,
+      "player": "18",
+      "country": "AUS",
+      "points": 573,
+      "change": -5
+    },
+    {
+      "rank": 132,
+      "player": "27",
+      "country": "CHN",
+      "points": 570,
+      "change": 6
+    },
+    {
+      "rank": 133,
+      "player": "24",
+      "country": "ARM",
+      "points": 568,
+      "change": -25
+    },
+    {
+      "rank": 134,
+      "player": "18",
+      "country": "BEL",
+      "points": 560,
+      "change": 5
+    },
+    {
+      "rank": 135,
+      "player": "28",
+      "country": "SLO",
+      "points": 558,
+      "change": 11
+    },
+    {
+      "rank": 136,
+      "player": "24",
+      "country": "USA",
+      "points": 556,
+      "change": 7
+    },
+    {
+      "rank": 137,
+      "player": "23",
+      "country": "ITA",
+      "points": 556,
+      "change": -7
+    },
+    {
+      "rank": 138,
+      "player": "22",
+      "country": "RUS",
+      "points": 554,
+      "change": 22
+    },
+    {
+      "rank": 139,
+      "player": "25",
+      "country": "COL",
+      "points": 541,
+      "change": -51
+    },
+    {
+      "rank": 140,
+      "player": "28",
+      "country": "AUS",
+      "points": 536,
+      "change": -6
+    },
+    {
+      "rank": 141,
+      "player": "25",
+      "country": "NZL",
+      "points": 528,
+      "change": -13
+    },
+    {
+      "rank": 142,
+      "player": "31",
+      "country": "ESP",
+      "points": 525,
+      "change": null
+    },
+    {
+      "rank": 143,
+      "player": "28",
+      "country": "SUI",
+      "points": 516,
+      "change": 9
+    },
+    {
+      "rank": 144,
+      "player": "24",
+      "country": "ARG",
+      "points": 514,
+      "change": 3
+    },
+    {
+      "rank": 145,
+      "player": "24",
+      "country": "ESP",
+      "points": 510,
+      "change": null
+    },
+    {
+      "rank": 146,
+      "player": "29",
+      "country": "SVK",
+      "points": 499,
+      "change": 5
+    },
+    {
+      "rank": 147,
+      "player": "26",
+      "country": "SLO",
+      "points": 495,
+      "change": -41
+    },
+    {
+      "rank": 148,
+      "player": "28",
+      "country": "HUN",
+      "points": 491,
+      "change": 9
+    },
+    {
+      "rank": 149,
+      "player": "18",
+      "country": "ITA",
+      "points": 490,
+      "change": null
+    },
+    {
+      "rank": 150,
+      "player": "21",
+      "country": "BEL",
+      "points": 483,
+      "change": 5
+    },
+    {
+      "rank": 151,
+      "player": "19",
+      "country": "BUL",
+      "points": 483,
+      "change": 15
+    },
+    {
+      "rank": 152,
+      "player": "34",
+      "country": "GEO",
+      "points": 482,
+      "change": 9
+    },
+    {
+      "rank": 153,
+      "player": "18",
+      "country": "CZE",
+      "points": 477,
+      "change": 12
+    },
+    {
+      "rank": 154,
+      "player": "26",
+      "country": "FRA",
+      "points": 473,
+      "change": -6
+    },
+    {
+      "rank": 155,
+      "player": "23",
+      "country": "ARM",
+      "points": 469,
+      "change": 4
+    },
+    {
+      "rank": 156,
+      "player": "23",
+      "country": "FRA",
+      "points": 468,
+      "change": -42
+    },
+    {
+      "rank": 157,
+      "player": "21",
+      "country": "RUS",
+      "points": 466,
+      "change": 33
+    },
+    {
+      "rank": 158,
+      "player": "21",
+      "country": "SRB",
+      "points": 465,
+      "change": -8
+    },
+    {
+      "rank": 159,
+      "player": "21",
+      "country": "CAN",
+      "points": 461,
+      "change": 3
+    },
+    {
+      "rank": 160,
+      "player": "24",
+      "country": "ARG",
+      "points": 459,
+      "change": -2
+    },
+    {
+      "rank": 161,
+      "player": "21",
+      "country": "CZE",
+      "points": 455,
+      "change": 13
+    },
+    {
+      "rank": 162,
+      "player": "22",
+      "country": "USA",
+      "points": 454,
+      "change": 25
+    },
+    {
+      "rank": 163,
+      "player": "29",
+      "country": "CZE",
+      "points": 452,
+      "change": 21
+    },
+    {
+      "rank": 164,
+      "player": "26",
+      "country": "CAN",
+      "points": 451,
+      "change": 19
+    },
+    {
+      "rank": 165,
+      "player": "22",
+      "country": "RUS",
+      "points": 451,
+      "change": -2
+    },
+    {
+      "rank": 166,
+      "player": "21",
+      "country": "RUS",
+      "points": 450,
+      "change": 53
+    },
+    {
+      "rank": 167,
+      "player": "25",
+      "country": "USA",
+      "points": 450,
+      "change": 3
+    },
+    {
+      "rank": 168,
+      "player": "25",
+      "country": "TWN",
+      "points": 448,
+      "change": 34
+    },
+    {
+      "rank": 169,
+      "player": "33",
+      "country": "USA",
+      "points": 444,
+      "change": 40
+    },
+    {
+      "rank": 170,
+      "player": "27",
+      "country": "JPN",
+      "points": 440,
+      "change": -3
+    },
+    {
+      "rank": 171,
+      "player": "25",
+      "country": "POL",
+      "points": 440,
+      "change": 11
+    },
+    {
+      "rank": 172,
+      "player": "19",
+      "country": "USA",
+      "points": 434,
+      "change": 5
+    },
+    {
+      "rank": 173,
+      "player": "21",
+      "country": "AND",
+      "points": 433,
+      "change": -53
+    },
+    {
+      "rank": 174,
+      "player": "27",
+      "country": "CHN",
+      "points": 432,
+      "change": 4
+    },
+    {
+      "rank": 175,
+      "player": "32",
+      "country": "AUS",
+      "points": 429,
+      "change": -6
+    },
+    {
+      "rank": 176,
+      "player": "29",
+      "country": "SUI",
+      "points": 425,
+      "change": -1
+    },
+    {
+      "rank": 177,
+      "player": "27",
+      "country": "SUI",
+      "points": 423,
+      "change": 3
+    },
+    {
+      "rank": 178,
+      "player": "27",
+      "country": "ESP",
+      "points": 421,
+      "change": 32
+    },
+    {
+      "rank": 179,
+      "player": "40",
+      "country": "USA",
+      "points": 420,
+      "change": 2
+    },
+    {
+      "rank": 180,
+      "player": "23",
+      "country": "KOR",
+      "points": 419,
+      "change": -1
+    },
+    {
+      "rank": 181,
+      "player": "22",
+      "country": "UKR",
+      "points": 416,
+      "change": 13
+    },
+    {
+      "rank": 182,
+      "player": "27",
+      "country": "NED",
+      "points": 414,
+      "change": -18
+    },
+    {
+      "rank": 183,
+      "player": "21",
+      "country": "CZE",
+      "points": 412,
+      "change": 43
+    },
+    {
+      "rank": 184,
+      "player": "20",
+      "country": "SRB",
+      "points": 409,
+      "change": 11
+    },
+    {
+      "rank": 185,
+      "player": "26",
+      "country": "ITA",
+      "points": 409,
+      "change": 4
+    },
+    {
+      "rank": 186,
+      "player": "19",
+      "country": "SRB",
+      "points": 408,
+      "change": -15
+    },
+    {
+      "rank": 187,
+      "player": "27",
+      "country": "GBR",
+      "points": 406,
+      "change": 20
+    },
+    {
+      "rank": 188,
+      "player": "21",
+      "country": "CAN",
+      "points": 406,
+      "change": -48
+    },
+    {
+      "rank": 189,
+      "player": "26",
+      "country": "NED",
+      "points": 401,
+      "change": 8
+    },
+    {
+      "rank": 190,
+      "player": "32",
+      "country": "CHN",
+      "points": 400,
+      "change": -17
+    },
+    {
+      "rank": 191,
+      "player": "27",
+      "country": "RUS",
+      "points": 397,
+      "change": 1
+    },
+    {
+      "rank": 192,
+      "player": "21",
+      "country": "RUS",
+      "points": 397,
+      "change": -6
+    },
+    {
+      "rank": 193,
+      "player": "29",
+      "country": "ESP",
+      "points": 397,
+      "change": 10
+    },
+    {
+      "rank": 194,
+      "player": "33",
+      "country": "GRE",
+      "points": 397,
+      "change": -6
+    },
+    {
+      "rank": 195,
+      "player": "24",
+      "country": "RUS",
+      "points": 394,
+      "change": -10
+    },
+    {
+      "rank": 196,
+      "player": "25",
+      "country": "CZE",
+      "points": 394,
+      "change": 12
+    },
+    {
+      "rank": 197,
+      "player": "29",
+      "country": "BLR",
+      "points": 393,
+      "change": -6
+    },
+    {
+      "rank": 198,
+      "player": "22",
+      "country": "CZE",
+      "points": 393,
+      "change": 2
+    },
+    {
+      "rank": 199,
+      "player": "31",
+      "country": "JPN",
+      "points": 385,
+      "change": 29
+    },
+    {
+      "rank": 200,
+      "player": "24",
+      "country": "RUS",
+      "points": 385,
+      "change": 27
+    },
+    {
+      "rank": 201,
+      "player": "19",
+      "country": "BUL",
+      "points": 380,
+      "change": 79
+    },
+    {
+      "rank": 202,
+      "player": "22",
+      "country": "POL",
+      "points": 379,
+      "change": -3
+    },
+    {
+      "rank": 203,
+      "player": "30",
+      "country": "TUR",
+      "points": 378,
+      "change": -2
+    },
+    {
+      "rank": 204,
+      "player": "19",
+      "country": "ARG",
+      "points": 374,
+      "change": -6
+    },
+    {
+      "rank": 205,
+      "player": "36",
+      "country": "USA",
+      "points": 374,
+      "change": 7
+    },
+    {
+      "rank": 206,
+      "player": "22",
+      "country": "RUS",
+      "points": 367,
+      "change": 9
+    },
+    {
+      "rank": 207,
+      "player": "30",
+      "country": "CHN",
+      "points": 365,
+      "change": -1
+    },
+    {
+      "rank": 208,
+      "player": "28",
+      "country": "SVK",
+      "points": 360,
+      "change": 17
+    },
+    {
+      "rank": 209,
+      "player": "29",
+      "country": "BEL",
+      "points": 359,
+      "change": -33
+    },
+    {
+      "rank": 210,
+      "player": "19",
+      "country": "JPN",
+      "points": 356,
+      "change": 14
+    },
+    {
+      "rank": 211,
+      "player": "21",
+      "country": "SUI",
+      "points": 356,
+      "change": 10
+    },
+    {
+      "rank": 212,
+      "player": "22",
+      "country": "BLR",
+      "points": 356,
+      "change": 11
+    },
+    {
+      "rank": 213,
+      "player": "26",
+      "country": "ARG",
+      "points": 354,
+      "change": 7
+    },
+    {
+      "rank": 214,
+      "player": "27",
+      "country": "CAN",
+      "points": 353,
+      "change": null
+    },
+    {
+      "rank": 215,
+      "player": "24",
+      "country": "FRA",
+      "points": 350,
+      "change": -19
+    },
+    {
+      "rank": 216,
+      "player": "29",
+      "country": "ESP",
+      "points": 350,
+      "change": 19
+    },
+    {
+      "rank": 217,
+      "player": "36",
+      "country": "GER",
+      "points": 349,
+      "change": -12
+    },
+    {
+      "rank": 218,
+      "player": "32",
+      "country": "BRA",
+      "points": 345,
+      "change": -25
+    },
+    {
+      "rank": 219,
+      "player": "26",
+      "country": "POR",
+      "points": 342,
+      "change": 13
+    },
+    {
+      "rank": 220,
+      "player": "35",
+      "country": "NED",
+      "points": 342,
+      "change": -16
+    },
+    {
+      "rank": 221,
+      "player": "29",
+      "country": "FRA",
+      "points": 336,
+      "change": -5
+    },
+    {
+      "rank": 222,
+      "player": "28",
+      "country": "AUS",
+      "points": 332,
+      "change": -66
+    },
+    {
+      "rank": 223,
+      "player": "27",
+      "country": "ESP",
+      "points": 330,
+      "change": -10
+    },
+    {
+      "rank": 224,
+      "player": "21",
+      "country": "CZE",
+      "points": 330,
+      "change": -6
+    },
+    {
+      "rank": 225,
+      "player": "35",
+      "country": "SLO",
+      "points": 329,
+      "change": 11
+    },
+    {
+      "rank": 226,
+      "player": "23",
+      "country": "CHN",
+      "points": 327,
+      "change": 26
+    },
+    {
+      "rank": 227,
+      "player": "23",
+      "country": "FRA",
+      "points": 323,
+      "change": 10
+    },
+    {
+      "rank": 228,
+      "player": "28",
+      "country": "CHN",
+      "points": 323,
+      "change": -17
+    },
+    {
+      "rank": 229,
+      "player": "24",
+      "country": "MLT",
+      "points": 321,
+      "change": 10
+    },
+    {
+      "rank": 230,
+      "player": "28",
+      "country": "CHN",
+      "points": 317,
+      "change": null
+    },
+    {
+      "rank": 231,
+      "player": "27",
+      "country": "USA",
+      "points": 317,
+      "change": 10
+    },
+    {
+      "rank": 232,
+      "player": "23",
+      "country": "ITA",
+      "points": 316,
+      "change": -15
+    },
+    {
+      "rank": 233,
+      "player": "17",
+      "country": "SVK",
+      "points": 315,
+      "change": 7
+    },
+    {
+      "rank": 234,
+      "player": "21",
+      "country": "CHN",
+      "points": 314,
+      "change": 30
+    },
+    {
+      "rank": 235,
+      "player": "23",
+      "country": "GBR",
+      "points": 314,
+      "change": 3
+    },
+    {
+      "rank": 236,
+      "player": "25",
+      "country": "SLO",
+      "points": 310,
+      "change": -68
+    },
+    {
+      "rank": 237,
+      "player": "30",
+      "country": "LTU",
+      "points": 309,
+      "change": -6
+    },
+    {
+      "rank": 238,
+      "player": "22",
+      "country": "USA",
+      "points": 308,
+      "change": 7
+    },
+    {
+      "rank": 239,
+      "player": "28",
+      "country": "ARG",
+      "points": 308,
+      "change": 3
+    },
+    {
+      "rank": 240,
+      "player": "25",
+      "country": "USA",
+      "points": 305,
+      "change": 11
+    },
+    {
+      "rank": 241,
+      "player": "24",
+      "country": "USA",
+      "points": 304,
+      "change": -7
+    },
+    {
+      "rank": 242,
+      "player": "25",
+      "country": "FRA",
+      "points": 304,
+      "change": -20
+    },
+    {
+      "rank": 243,
+      "player": "24",
+      "country": "FRA",
+      "points": 303,
+      "change": 11
+    },
+    {
+      "rank": 244,
+      "player": "22",
+      "country": "NED",
+      "points": 301,
+      "change": -15
+    },
+    {
+      "rank": 245,
+      "player": "25",
+      "country": "RUS",
+      "points": 295,
+      "change": 17
+    },
+    {
+      "rank": 246,
+      "player": "28",
+      "country": "USA",
+      "points": 294,
+      "change": 2
+    },
+    {
+      "rank": 247,
+      "player": "19",
+      "country": "JPN",
+      "points": 293,
+      "change": -3
+    },
+    {
+      "rank": 248,
+      "player": "25",
+      "country": "SUI",
+      "points": 292,
+      "change": 15
+    },
+    {
+      "rank": 249,
+      "player": "21",
+      "country": "CAN",
+      "points": 290,
+      "change": 9
+    },
+    {
+      "rank": 250,
+      "player": "31",
+      "country": "JPN",
+      "points": 289,
+      "change": 9
+    },
+    {
+      "rank": 251,
+      "player": "25",
+      "country": "SWE",
+      "points": 288,
+      "change": -8
+    },
+    {
+      "rank": 252,
+      "player": "28",
+      "country": "SWE",
+      "points": 287,
+      "change": -19
+    },
+    {
+      "rank": 253,
+      "player": "27",
+      "country": "JPN",
+      "points": 287,
+      "change": 8
+    },
+    {
+      "rank": 254,
+      "player": "23",
+      "country": "CHN",
+      "points": 285,
+      "change": 1
+    },
+    {
+      "rank": 255,
+      "player": "17",
+      "country": "USA",
+      "points": 284,
+      "change": 33
+    },
+    {
+      "rank": 256,
+      "player": "28",
+      "country": "FRA",
+      "points": 283,
+      "change": -9
+    },
+    {
+      "rank": 257,
+      "player": "22",
+      "country": "ITA",
+      "points": 283,
+      "change": -7
+    },
+    {
+      "rank": 258,
+      "player": "24",
+      "country": "USA",
+      "points": 281,
+      "change": -9
+    },
+    {
+      "rank": 259,
+      "player": "26",
+      "country": "UKR",
+      "points": 279,
+      "change": -13
+    },
+    {
+      "rank": 260,
+      "player": "21",
+      "country": "ITA",
+      "points": 278,
+      "change": 14
+    },
+    {
+      "rank": 261,
+      "player": "22",
+      "country": "POR",
+      "points": 278,
+      "change": 39
+    },
+    {
+      "rank": 262,
+      "player": "24",
+      "country": "RUS",
+      "points": 276,
+      "change": 4
+    },
+    {
+      "rank": 263,
+      "player": "27",
+      "country": "ESP",
+      "points": 276,
+      "change": 38
+    },
+    {
+      "rank": 264,
+      "player": "25",
+      "country": "ITA",
+      "points": 276,
+      "change": 32
+    },
+    {
+      "rank": 265,
+      "player": "32",
+      "country": "GER",
+      "points": 270,
+      "change": -12
+    },
+    {
+      "rank": 266,
+      "player": "25",
+      "country": "RUS",
+      "points": 269,
+      "change": 4
+    },
+    {
+      "rank": 267,
+      "player": "30",
+      "country": "GER",
+      "points": 265,
+      "change": 19
+    },
+    {
+      "rank": 268,
+      "player": "24",
+      "country": "AUS",
+      "points": 264,
+      "change": -8
+    },
+    {
+      "rank": 269,
+      "player": "17",
+      "country": "GBR",
+      "points": 264,
+      "change": 9
+    },
+    {
+      "rank": 270,
+      "player": "24",
+      "country": "KOR",
+      "points": 264,
+      "change": -2
+    },
+    {
+      "rank": 271,
+      "player": "22",
+      "country": "ESP",
+      "points": 263,
+      "change": 2
+    },
+    {
+      "rank": 272,
+      "player": "24",
+      "country": "GER",
+      "points": 262,
+      "change": 3
+    },
+    {
+      "rank": 273,
+      "player": "18",
+      "country": "GER",
+      "points": 262,
+      "change": 31
+    },
+    {
+      "rank": 274,
+      "player": "22",
+      "country": "AUS",
+      "points": 261,
+      "change": 3
+    },
+    {
+      "rank": 275,
+      "player": "22",
+      "country": "ITA",
+      "points": 260,
+      "change": 10
+    },
+    {
+      "rank": 276,
+      "player": "22",
+      "country": "BLR",
+      "points": 260,
+      "change": 17
+    },
+    {
+      "rank": 277,
+      "player": "20",
+      "country": "ITA",
+      "points": 258,
+      "change": -10
+    },
+    {
+      "rank": 278,
+      "player": "25",
+      "country": "JPN",
+      "points": 255,
+      "change": -6
+    },
+    {
+      "rank": 279,
+      "player": "20",
+      "country": "ROU",
+      "points": 255,
+      "change": -23
+    },
+    {
+      "rank": 280,
+      "player": "22",
+      "country": "CHN",
+      "points": 252,
+      "change": 2
+    },
+    {
+      "rank": 281,
+      "player": "17",
+      "country": "RUS",
+      "points": 252,
+      "change": 9
+    },
+    {
+      "rank": 282,
+      "player": "25",
+      "country": "USA",
+      "points": 251,
+      "change": 5
+    },
+    {
+      "rank": 283,
+      "player": "29",
+      "country": "FRA",
+      "points": 250,
+      "change": -14
+    },
+    {
+      "rank": 284,
+      "player": "25",
+      "country": "USA",
+      "points": 248,
+      "change": -19
+    },
+    {
+      "rank": 285,
+      "player": "42",
+      "country": "RUS",
+      "points": 247,
+      "change": 7
+    },
+    {
+      "rank": 286,
+      "player": "25",
+      "country": "SVK",
+      "points": 247,
+      "change": -10
+    },
+    {
+      "rank": 287,
+      "player": "25",
+      "country": "JPN",
+      "points": 245,
+      "change": 4
+    },
+    {
+      "rank": 288,
+      "player": "25",
+      "country": "TWN",
+      "points": 243,
+      "change": 1
+    },
+    {
+      "rank": 289,
+      "player": "22",
+      "country": "MAR",
+      "points": 243,
+      "change": 6
+    },
+    {
+      "rank": 290,
+      "player": "29",
+      "country": "GRE",
+      "points": 242,
+      "change": 9
+    },
+    {
+      "rank": 291,
+      "player": "20",
+      "country": "CHN",
+      "points": 240,
+      "change": 22
+    },
+    {
+      "rank": 292,
+      "player": "25",
+      "country": "SVK",
+      "points": 240,
+      "change": 20
+    },
+    {
+      "rank": 293,
+      "player": "28",
+      "country": "USA",
+      "points": 239,
+      "change": 5
+    },
+    {
+      "rank": 294,
+      "player": "33",
+      "country": "BRA",
+      "points": 238,
+      "change": 42
+    },
+    {
+      "rank": 295,
+      "player": "28",
+      "country": "AUS",
+      "points": 237,
+      "change": -14
+    },
+    {
+      "rank": 296,
+      "player": "30",
+      "country": "BRA",
+      "points": 237,
+      "change": 18
+    },
+    {
+      "rank": 297,
+      "player": "26",
+      "country": "SWE",
+      "points": 237,
+      "change": 6
+    },
+    {
+      "rank": 298,
+      "player": "21",
+      "country": "ITA",
+      "points": 236,
+      "change": 26
+    },
+    {
+      "rank": 299,
+      "player": "27",
+      "country": "ESP",
+      "points": 235,
+      "change": -5
+    },
+    {
+      "rank": 300,
+      "player": "23",
+      "country": "USA",
+      "points": 235,
+      "change": 7
+    },
+    {
+      "rank": 301,
+      "player": "25",
+      "country": "FRA",
+      "points": 233,
+      "change": 115
+    },
+    {
+      "rank": 302,
+      "player": "25",
+      "country": "BDI",
+      "points": 233,
+      "change": -31
+    },
+    {
+      "rank": 303,
+      "player": "23",
+      "country": "CHN",
+      "points": 232,
+      "change": 3
+    },
+    {
+      "rank": 304,
+      "player": "26",
+      "country": "EST",
+      "points": 230,
+      "change": 4
+    },
+    {
+      "rank": 305,
+      "player": "26",
+      "country": "TUR",
+      "points": 228,
+      "change": -26
+    },
+    {
+      "rank": 306,
+      "player": "31",
+      "country": "ARG",
+      "points": 228,
+      "change": 17
+    },
+    {
+      "rank": 307,
+      "player": "30",
+      "country": "JPN",
+      "points": 227,
+      "change": -24
+    },
+    {
+      "rank": 308,
+      "player": "23",
+      "country": "POL",
+      "points": 227,
+      "change": -3
+    },
+    {
+      "rank": 309,
+      "player": "23",
+      "country": "USA",
+      "points": 223,
+      "change": -25
+    },
+    {
+      "rank": 310,
+      "player": "29",
+      "country": "FRA",
+      "points": 222,
+      "change": 19
+    },
+    {
+      "rank": 311,
+      "player": "26",
+      "country": "FIN",
+      "points": 222,
+      "change": -1
+    },
+    {
+      "rank": 312,
+      "player": "19",
+      "country": "NED",
+      "points": 222,
+      "change": -10
+    },
+    {
+      "rank": 313,
+      "player": "23",
+      "country": "GER",
+      "points": 221,
+      "change": 2
+    },
+    {
+      "rank": 314,
+      "player": "32",
+      "country": "ITA",
+      "points": 220,
+      "change": 11
+    },
+    {
+      "rank": 315,
+      "player": "31",
+      "country": "CZE",
+      "points": 220,
+      "change": 5
+    },
+    {
+      "rank": 316,
+      "player": "23",
+      "country": "NED",
+      "points": 219,
+      "change": 3
+    },
+    {
+      "rank": 317,
+      "player": "29",
+      "country": "ARG",
+      "points": 218,
+      "change": 132
+    },
+    {
+      "rank": 318,
+      "player": "25",
+      "country": "SRB",
+      "points": 218,
+      "change": -7
+    },
+    {
+      "rank": 319,
+      "player": "32",
+      "country": "FRA",
+      "points": 217,
+      "change": -22
+    },
+    {
+      "rank": 320,
+      "player": "26",
+      "country": "POL",
+      "points": 217,
+      "change": -4
+    },
+    {
+      "rank": 321,
+      "player": "28",
+      "country": "USA",
+      "points": 217,
+      "change": 9
+    },
+    {
+      "rank": 322,
+      "player": "19",
+      "country": "JPN",
+      "points": 217,
+      "change": 6
+    },
+    {
+      "rank": 323,
+      "player": "23",
+      "country": "SUI",
+      "points": 214,
+      "change": -6
+    },
+    {
+      "rank": 324,
+      "player": "32",
+      "country": "LIE",
+      "points": 212,
+      "change": 3
+    },
+    {
+      "rank": 325,
+      "player": "24",
+      "country": "FRA",
+      "points": 211,
+      "change": -4
+    },
+    {
+      "rank": 326,
+      "player": "30",
+      "country": "ITA",
+      "points": 211,
+      "change": 7
+    },
+    {
+      "rank": 327,
+      "player": "32",
+      "country": "MKD",
+      "points": 209,
+      "change": -70
+    },
+    {
+      "rank": 328,
+      "player": "24",
+      "country": "KOR",
+      "points": 208,
+      "change": 4
+    },
+    {
+      "rank": 329,
+      "player": "26",
+      "country": "CRO",
+      "points": 205,
+      "change": 5
+    },
+    {
+      "rank": 330,
+      "player": "22",
+      "country": "GER",
+      "points": 205,
+      "change": 1
+    },
+    {
+      "rank": 331,
+      "player": "21",
+      "country": "PER",
+      "points": 204,
+      "change": 9
+    },
+    {
+      "rank": 332,
+      "player": "31",
+      "country": "BUL",
+      "points": 201,
+      "change": -14
+    },
+    {
+      "rank": 333,
+      "player": "23",
+      "country": "USA",
+      "points": 201,
+      "change": 19
+    },
+    {
+      "rank": 334,
+      "player": "18",
+      "country": "GBR",
+      "points": 200,
+      "change": 5
+    },
+    {
+      "rank": 335,
+      "player": "29",
+      "country": "ITA",
+      "points": 200,
+      "change": 12
+    },
+    {
+      "rank": 336,
+      "player": "20",
+      "country": "GER",
+      "points": 199,
+      "change": 1
+    },
+    {
+      "rank": 337,
+      "player": "23",
+      "country": "USA",
+      "points": 199,
+      "change": -28
+    },
+    {
+      "rank": 338,
+      "player": "30",
+      "country": "BRA",
+      "points": 197,
+      "change": -184
+    },
+    {
+      "rank": 339,
+      "player": "20",
+      "country": "FRA",
+      "points": 195,
+      "change": -167
+    },
+    {
+      "rank": 340,
+      "player": "17",
+      "country": "SRB",
+      "points": 192,
+      "change": 11
+    },
+    {
+      "rank": 341,
+      "player": "24",
+      "country": "ECU",
+      "points": 191,
+      "change": -3
+    },
+    {
+      "rank": 342,
+      "player": "17",
+      "country": "GBR",
+      "points": 190,
+      "change": 97
+    },
+    {
+      "rank": 343,
+      "player": "21",
+      "country": "FRA",
+      "points": 190,
+      "change": 13
+    },
+    {
+      "rank": 344,
+      "player": "26",
+      "country": "JPN",
+      "points": 189,
+      "change": 4
+    },
+    {
+      "rank": 345,
+      "player": "22",
+      "country": "RUS",
+      "points": 189,
+      "change": -1
+    },
+    {
+      "rank": 346,
+      "player": "25",
+      "country": "FRA",
+      "points": 188,
+      "change": -11
+    },
+    {
+      "rank": 347,
+      "player": "20",
+      "country": "RUS",
+      "points": 187,
+      "change": -2
+    },
+    {
+      "rank": 348,
+      "player": "25",
+      "country": "ESP",
+      "points": 187,
+      "change": 14
+    },
+    {
+      "rank": 349,
+      "player": "25",
+      "country": "IND",
+      "points": 186,
+      "change": -8
+    },
+    {
+      "rank": 350,
+      "player": "20",
+      "country": "BUL",
+      "points": 185,
+      "change": 4
+    },
+    {
+      "rank": 351,
+      "player": "27",
+      "country": "ROU",
+      "points": 184,
+      "change": -29
+    },
+    {
+      "rank": 352,
+      "player": "22",
+      "country": "CRO",
+      "points": 184,
+      "change": 12
+    },
+    {
+      "rank": 353,
+      "player": "19",
+      "country": "RUS",
+      "points": 184,
+      "change": 5
+    },
+    {
+      "rank": 354,
+      "player": "23",
+      "country": "USA",
+      "points": 183,
+      "change": 1
+    },
+    {
+      "rank": 355,
+      "player": "19",
+      "country": "UKR",
+      "points": 181,
+      "change": 5
+    },
+    {
+      "rank": 356,
+      "player": "19",
+      "country": "POR",
+      "points": 181,
+      "change": -7
+    },
+    {
+      "rank": 357,
+      "player": "23",
+      "country": "SVK",
+      "points": 181,
+      "change": -15
+    },
+    {
+      "rank": 358,
+      "player": "26",
+      "country": "JPN",
+      "points": 181,
+      "change": 5
+    },
+    {
+      "rank": 359,
+      "player": "28",
+      "country": "GEO",
+      "points": 179,
+      "change": 64
+    },
+    {
+      "rank": 360,
+      "player": "25",
+      "country": "FRA",
+      "points": 179,
+      "change": -14
+    },
+    {
+      "rank": 361,
+      "player": "23",
+      "country": "SRB",
+      "points": 179,
+      "change": -4
+    },
+    {
+      "rank": 362,
+      "player": "28",
+      "country": "JPN",
+      "points": 178,
+      "change": 12
+    },
+    {
+      "rank": 363,
+      "player": "21",
+      "country": "IND",
+      "points": 178,
+      "change": 29
+    },
+    {
+      "rank": 364,
+      "player": "23",
+      "country": "USA",
+      "points": 177,
+      "change": 3
+    },
+    {
+      "rank": 365,
+      "player": "34",
+      "country": "BUL",
+      "points": 177,
+      "change": -12
+    },
+    {
+      "rank": 366,
+      "player": "18",
+      "country": "GER",
+      "points": 177,
+      "change": 18
+    },
+    {
+      "rank": 367,
+      "player": "23",
+      "country": "INA",
+      "points": 175,
+      "change": 31
+    },
+    {
+      "rank": 368,
+      "player": "28",
+      "country": "JPN",
+      "points": 175,
+      "change": 7
+    },
+    {
+      "rank": 369,
+      "player": "18",
+      "country": "SWE",
+      "points": 175,
+      "change": 2
+    },
+    {
+      "rank": 370,
+      "player": "25",
+      "country": "USA",
+      "points": 175,
+      "change": 2
+    },
+    {
+      "rank": 371,
+      "player": "26",
+      "country": "KOR",
+      "points": 175,
+      "change": -21
+    },
+    {
+      "rank": 372,
+      "player": "22",
+      "country": "JPN",
+      "points": 173,
+      "change": 1
+    },
+    {
+      "rank": 373,
+      "player": "31",
+      "country": "ITA",
+      "points": 173,
+      "change": -14
+    },
+    {
+      "rank": 374,
+      "player": "29",
+      "country": "CYP",
+      "points": 173,
+      "change": 2
+    },
+    {
+      "rank": 375,
+      "player": "22",
+      "country": "GBR",
+      "points": 172,
+      "change": 84
+    },
+    {
+      "rank": 376,
+      "player": "21",
+      "country": "POL",
+      "points": 169,
+      "change": -11
+    },
+    {
+      "rank": 377,
+      "player": "24",
+      "country": "CAN",
+      "points": 168,
+      "change": 5
+    },
+    {
+      "rank": 378,
+      "player": "35",
+      "country": "SLO",
+      "points": 167,
+      "change": -35
+    },
+    {
+      "rank": 379,
+      "player": "25",
+      "country": "ESP",
+      "points": 166,
+      "change": 12
+    },
+    {
+      "rank": 380,
+      "player": "32",
+      "country": "MEX",
+      "points": 166,
+      "change": 33
+    },
+    {
+      "rank": 381,
+      "player": "29",
+      "country": "ITA",
+      "points": 166,
+      "change": -20
+    },
+    {
+      "rank": 382,
+      "player": "20",
+      "country": "KAZ",
+      "points": 166,
+      "change": 5
+    },
+    {
+      "rank": 383,
+      "player": "23",
+      "country": "BUL",
+      "points": 164,
+      "change": -4
+    },
+    {
+      "rank": 384,
+      "player": "28",
+      "country": "GBR",
+      "points": 164,
+      "change": -14
+    },
+    {
+      "rank": 385,
+      "player": "34",
+      "country": "GBR",
+      "points": 163,
+      "change": 61
+    },
+    {
+      "rank": 386,
+      "player": "29",
+      "country": "ITA",
+      "points": 163,
+      "change": -60
+    },
+    {
+      "rank": 387,
+      "player": "19",
+      "country": "CHI",
+      "points": 163,
+      "change": -18
+    },
+    {
+      "rank": 388,
+      "player": "30",
+      "country": "GBR",
+      "points": 162,
+      "change": -22
+    },
+    {
+      "rank": 389,
+      "player": "36",
+      "country": "CHN",
+      "points": 162,
+      "change": -6
+    },
+    {
+      "rank": 390,
+      "player": "21",
+      "country": "USA",
+      "points": 161,
+      "change": 41
+    },
+    {
+      "rank": 391,
+      "player": "24",
+      "country": "GBR",
+      "points": 161,
+      "change": -5
+    },
+    {
+      "rank": 392,
+      "player": "26",
+      "country": "CHN",
+      "points": 161,
+      "change": -24
+    },
+    {
+      "rank": 393,
+      "player": "28",
+      "country": "EGY",
+      "points": 160,
+      "change": -16
+    },
+    {
+      "rank": 394,
+      "player": "31",
+      "country": "ITA",
+      "points": 159,
+      "change": -5
+    },
+    {
+      "rank": 395,
+      "player": "24",
+      "country": "ITA",
+      "points": 159,
+      "change": -17
+    },
+    {
+      "rank": 396,
+      "player": "27",
+      "country": "TUR",
+      "points": 159,
+      "change": 10
+    },
+    {
+      "rank": 397,
+      "player": "24",
+      "country": "CHN",
+      "points": 158,
+      "change": 3
+    },
+    {
+      "rank": 398,
+      "player": "28",
+      "country": "EGY",
+      "points": 158,
+      "change": 6
+    },
+    {
+      "rank": 399,
+      "player": "26",
+      "country": "NED",
+      "points": 158,
+      "change": -11
+    },
+    {
+      "rank": 400,
+      "player": "31",
+      "country": "CRO",
+      "points": 157,
+      "change": 5
+    },
+    {
+      "rank": 401,
+      "player": "20",
+      "country": "GER",
+      "points": 157,
+      "change": 26
+    },
+    {
+      "rank": 402,
+      "player": "18",
+      "country": "CZE",
+      "points": 157,
+      "change": -9
+    },
+    {
+      "rank": 403,
+      "player": "26",
+      "country": "ITA",
+      "points": 156,
+      "change": -13
+    },
+    {
+      "rank": 404,
+      "player": "26",
+      "country": "CZE",
+      "points": 155,
+      "change": 8
+    },
+    {
+      "rank": 405,
+      "player": "24",
+      "country": "FRA",
+      "points": 154,
+      "change": -8
+    },
+    {
+      "rank": 406,
+      "player": "23",
+      "country": "FRA",
+      "points": 153,
+      "change": 24
+    },
+    {
+      "rank": 407,
+      "player": "24",
+      "country": "JPN",
+      "points": 153,
+      "change": -4
+    },
+    {
+      "rank": 408,
+      "player": "19",
+      "country": "JPN",
+      "points": 153,
+      "change": 10
+    },
+    {
+      "rank": 409,
+      "player": "20",
+      "country": "RUS",
+      "points": 152,
+      "change": -8
+    },
+    {
+      "rank": 410,
+      "player": "18",
+      "country": "CZE",
+      "points": 152,
+      "change": 9
+    },
+    {
+      "rank": 411,
+      "player": "33",
+      "country": "FRA",
+      "points": 151,
+      "change": 9
+    },
+    {
+      "rank": 412,
+      "player": "20",
+      "country": "POL",
+      "points": 149,
+      "change": -5
+    },
+    {
+      "rank": 413,
+      "player": "36",
+      "country": "TUR",
+      "points": 148,
+      "change": 13
+    },
+    {
+      "rank": 414,
+      "player": "25",
+      "country": "SRB",
+      "points": 148,
+      "change": -33
+    },
+    {
+      "rank": 415,
+      "player": "21",
+      "country": "SVK",
+      "points": 148,
+      "change": -6
+    },
+    {
+      "rank": 416,
+      "player": "28",
+      "country": "ESP",
+      "points": 146,
+      "change": -31
+    },
+    {
+      "rank": 417,
+      "player": "25",
+      "country": "FRA",
+      "points": 146,
+      "change": -37
+    },
+    {
+      "rank": 418,
+      "player": "19",
+      "country": "RUS",
+      "points": 145,
+      "change": -8
+    },
+    {
+      "rank": 419,
+      "player": "28",
+      "country": "JPN",
+      "points": 143,
+      "change": 2
+    },
+    {
+      "rank": 420,
+      "player": "22",
+      "country": "KEN",
+      "points": 143,
+      "change": 68
+    },
+    {
+      "rank": 421,
+      "player": "22",
+      "country": "BUL",
+      "points": 142,
+      "change": 14
+    },
+    {
+      "rank": 422,
+      "player": "26",
+      "country": "IND",
+      "points": 142,
+      "change": 12
+    },
+    {
+      "rank": 423,
+      "player": "26",
+      "country": "SUI",
+      "points": 141,
+      "change": -29
+    },
+    {
+      "rank": 424,
+      "player": "25",
+      "country": "FRA",
+      "points": 140,
+      "change": 13
+    },
+    {
+      "rank": 425,
+      "player": "23",
+      "country": "KOR",
+      "points": 140,
+      "change": 7
+    },
+    {
+      "rank": 426,
+      "player": "27",
+      "country": "ITA",
+      "points": 139,
+      "change": 14
+    },
+    {
+      "rank": 427,
+      "player": "21",
+      "country": "CHN",
+      "points": 139,
+      "change": 44
+    },
+    {
+      "rank": 428,
+      "player": "27",
+      "country": "GBR",
+      "points": 138,
+      "change": 22
+    },
+    {
+      "rank": 429,
+      "player": "20",
+      "country": "ARG",
+      "points": 138,
+      "change": 12
+    },
+    {
+      "rank": 430,
+      "player": "23",
+      "country": "ITA",
+      "points": 138,
+      "change": 17
+    },
+    {
+      "rank": 431,
+      "player": "26",
+      "country": "CHN",
+      "points": 137,
+      "change": 12
+    },
+    {
+      "rank": 432,
+      "player": "28",
+      "country": "JPN",
+      "points": 137,
+      "change": -15
+    },
+    {
+      "rank": 433,
+      "player": "23",
+      "country": "ITA",
+      "points": 136,
+      "change": null
+    },
+    {
+      "rank": 434,
+      "player": "30",
+      "country": "CRO",
+      "points": 136,
+      "change": 4
+    },
+    {
+      "rank": 435,
+      "player": "19",
+      "country": "RUS",
+      "points": 136,
+      "change": 9
+    },
+    {
+      "rank": 436,
+      "player": "29",
+      "country": "RUS",
+      "points": 135,
+      "change": -7
+    },
+    {
+      "rank": 437,
+      "player": "25",
+      "country": "ARG",
+      "points": 135,
+      "change": 30
+    },
+    {
+      "rank": 438,
+      "player": "22",
+      "country": "RUS",
+      "points": 134,
+      "change": 99
+    },
+    {
+      "rank": 439,
+      "player": "19",
+      "country": "LAT",
+      "points": 133,
+      "change": 12
+    },
+    {
+      "rank": 440,
+      "player": "26",
+      "country": "FRA",
+      "points": 132,
+      "change": -38
+    },
+    {
+      "rank": 441,
+      "player": "23",
+      "country": "GRE",
+      "points": 132,
+      "change": 7
+    },
+    {
+      "rank": 442,
+      "player": "16",
+      "country": "CZE",
+      "points": 132,
+      "change": -14
+    },
+    {
+      "rank": 443,
+      "player": "31",
+      "country": "USA",
+      "points": 132,
+      "change": 11
+    },
+    {
+      "rank": 444,
+      "player": "18",
+      "country": "AUS",
+      "points": 131,
+      "change": 82
+    },
+    {
+      "rank": 445,
+      "player": "23",
+      "country": "HUN",
+      "points": 130,
+      "change": -49
+    },
+    {
+      "rank": 446,
+      "player": "26",
+      "country": "ESP",
+      "points": 129,
+      "change": 22
+    },
+    {
+      "rank": 447,
+      "player": "25",
+      "country": "GBR",
+      "points": 129,
+      "change": -11
+    },
+    {
+      "rank": 448,
+      "player": "36",
+      "country": "ROU",
+      "points": 127,
+      "change": 13
+    },
+    {
+      "rank": 449,
+      "player": "27",
+      "country": "CHI",
+      "points": 127,
+      "change": 14
+    },
+    {
+      "rank": 450,
+      "player": "27",
+      "country": "FRA",
+      "points": 127,
+      "change": 88
+    },
+    {
+      "rank": 451,
+      "player": "26",
+      "country": "USA",
+      "points": 127,
+      "change": 29
+    },
+    {
+      "rank": 452,
+      "player": "21",
+      "country": "GBR",
+      "points": 126,
+      "change": 10
+    },
+    {
+      "rank": 453,
+      "player": "23",
+      "country": "CHN",
+      "points": 126,
+      "change": 28
+    },
+    {
+      "rank": 454,
+      "player": "21",
+      "country": "ROU",
+      "points": 125,
+      "change": -55
+    },
+    {
+      "rank": 455,
+      "player": "21",
+      "country": "GER",
+      "points": 124,
+      "change": 9
+    },
+    {
+      "rank": 456,
+      "player": "24",
+      "country": "GBR",
+      "points": 123,
+      "change": 16
+    },
+    {
+      "rank": 457,
+      "player": "22",
+      "country": "CHN",
+      "points": 123,
+      "change": -62
+    },
+    {
+      "rank": 458,
+      "player": "36",
+      "country": "AUS",
+      "points": 123,
+      "change": 7
+    },
+    {
+      "rank": 459,
+      "player": "25",
+      "country": "USA",
+      "points": 123,
+      "change": 15
+    },
+    {
+      "rank": 460,
+      "player": "22",
+      "country": "FIN",
+      "points": 123,
+      "change": -52
+    },
+    {
+      "rank": 461,
+      "player": "19",
+      "country": "AUS",
+      "points": 122,
+      "change": -19
+    },
+    {
+      "rank": 462,
+      "player": "27",
+      "country": "GER",
+      "points": 122,
+      "change": -51
+    },
+    {
+      "rank": 463,
+      "player": "28",
+      "country": "RUS",
+      "points": 122,
+      "change": 33
+    },
+    {
+      "rank": 464,
+      "player": "18",
+      "country": "CZE",
+      "points": 122,
+      "change": 18
+    },
+    {
+      "rank": 465,
+      "player": "25",
+      "country": "BRA",
+      "points": 122,
+      "change": -7
+    },
+    {
+      "rank": 466,
+      "player": "22",
+      "country": "RUS",
+      "points": 122,
+      "change": 12
+    },
+    {
+      "rank": 467,
+      "player": "25",
+      "country": "NZL",
+      "points": 122,
+      "change": 17
+    },
+    {
+      "rank": 468,
+      "player": "27",
+      "country": "JPN",
+      "points": 122,
+      "change": -8
+    },
+    {
+      "rank": 469,
+      "player": "25",
+      "country": "NED",
+      "points": 120,
+      "change": 18
+    },
+    {
+      "rank": 470,
+      "player": "21",
+      "country": "JPN",
+      "points": 120,
+      "change": 19
+    },
+    {
+      "rank": 471,
+      "player": "24",
+      "country": "SLO",
+      "points": 120,
+      "change": 70
+    },
+    {
+      "rank": 472,
+      "player": "25",
+      "country": "HUN",
+      "points": 119,
+      "change": 18
+    },
+    {
+      "rank": 473,
+      "player": "24",
+      "country": "VEN",
+      "points": 118,
+      "change": 32
+    },
+    {
+      "rank": 474,
+      "player": "21",
+      "country": "BEL",
+      "points": 118,
+      "change": 17
+    },
+    {
+      "rank": 475,
+      "player": "21",
+      "country": "JPN",
+      "points": 117,
+      "change": 22
+    },
+    {
+      "rank": 476,
+      "player": "20",
+      "country": "ROU",
+      "points": 116,
+      "change": 22
+    },
+    {
+      "rank": 477,
+      "player": "26",
+      "country": "KAZ",
+      "points": 116,
+      "change": -1
+    },
+    {
+      "rank": 478,
+      "player": "26",
+      "country": "ROU",
+      "points": 115,
+      "change": 25
+    },
+    {
+      "rank": 479,
+      "player": "21",
+      "country": "SVK",
+      "points": 115,
+      "change": 21
+    },
+    {
+      "rank": 480,
+      "player": "22",
+      "country": "RUS",
+      "points": 115,
+      "change": 21
+    },
+    {
+      "rank": 481,
+      "player": "23",
+      "country": "GER",
+      "points": 115,
+      "change": 43
+    },
+    {
+      "rank": 482,
+      "player": "22",
+      "country": "TWN",
+      "points": 115,
+      "change": 38
+    },
+    {
+      "rank": 483,
+      "player": "23",
+      "country": "PER",
+      "points": 114,
+      "change": 21
+    },
+    {
+      "rank": 484,
+      "player": "26",
+      "country": "USA",
+      "points": 113,
+      "change": -59
+    },
+    {
+      "rank": 485,
+      "player": "20",
+      "country": "ITA",
+      "points": 113,
+      "change": 21
+    },
+    {
+      "rank": 486,
+      "player": "27",
+      "country": "CHN",
+      "points": 112,
+      "change": 30
+    },
+    {
+      "rank": 487,
+      "player": "24",
+      "country": "ESP",
+      "points": 112,
+      "change": 22
+    },
+    {
+      "rank": 488,
+      "player": "23",
+      "country": "USA",
+      "points": 112,
+      "change": -35
+    },
+    {
+      "rank": 489,
+      "player": "24",
+      "country": "THA",
+      "points": 112,
+      "change": -75
+    },
+    {
+      "rank": 490,
+      "player": "37",
+      "country": "JPN",
+      "points": 112,
+      "change": 20
+    },
+    {
+      "rank": 491,
+      "player": "20",
+      "country": "ITA",
+      "points": 112,
+      "change": 20
+    },
+    {
+      "rank": 492,
+      "player": "22",
+      "country": "CAN",
+      "points": 111,
+      "change": 23
+    },
+    {
+      "rank": 493,
+      "player": "28",
+      "country": "SRB",
+      "points": 110,
+      "change": 9
+    },
+    {
+      "rank": 494,
+      "player": "26",
+      "country": "BUL",
+      "points": 110,
+      "change": 5
+    },
+    {
+      "rank": 495,
+      "player": "20",
+      "country": "NED",
+      "points": 110,
+      "change": -20
+    },
+    {
+      "rank": 496,
+      "player": "21",
+      "country": "ESP",
+      "points": 110,
+      "change": 22
+    },
+    {
+      "rank": 497,
+      "player": "27",
+      "country": "RUS",
+      "points": 109,
+      "change": -2
+    },
+    {
+      "rank": 498,
+      "player": "19",
+      "country": "RUS",
+      "points": 109,
+      "change": -19
+    },
+    {
+      "rank": 499,
+      "player": "20",
+      "country": "ITA",
+      "points": 109,
+      "change": 14
+    },
+    {
+      "rank": 500,
+      "player": "29",
+      "country": "ITA",
+      "points": 108,
+      "change": -85
+    }
+  ]
 }
