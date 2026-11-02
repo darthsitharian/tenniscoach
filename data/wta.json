@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T16:02:52.567288+00:00",
+  "updated_at": "2026-11-02T19:23:54.142547+00:00",
   "tour": "WTA",
   "source": "https://live-tennis.eu/pl/oficjalny-ranking-wta",
   "ranking": [
@@ -17,11 +17,11 @@
     },
     {
       "rank": 4,
-      "player": "Jessica Pegula"
+      "player": "Coco Gauff"
     },
     {
       "rank": 5,
-      "player": "Coco Gauff"
+      "player": "Jessica Pegula"
     },
     {
       "rank": 6,
@@ -33,11 +33,11 @@
     },
     {
       "rank": 8,
-      "player": "Iga Swiatek"
+      "player": "Linda Noskova"
     },
     {
       "rank": 9,
-      "player": "Linda Noskova"
+      "player": "Iga Swiatek"
     },
     {
       "rank": 10,
@@ -45,15 +45,15 @@
     },
     {
       "rank": 11,
-      "player": "Maja Chwalinska"
+      "player": "Diana Shnaider"
     },
     {
       "rank": 12,
-      "player": "Iva Jovic"
+      "player": "Maja Chwalinska"
     },
     {
       "rank": 13,
-      "player": "Diana Shnaider"
+      "player": "Iva Jovic"
     },
     {
       "rank": 14,
@@ -61,51 +61,51 @@
     },
     {
       "rank": 15,
-      "player": "Victoria Mboko"
-    },
-    {
-      "rank": 16,
       "player": "Sorana Cirstea"
     },
     {
-      "rank": 17,
-      "player": "Amanda Anisimova"
-    },
-    {
-      "rank": 18,
+      "rank": 16,
       "player": "Naomi Osaka"
     },
     {
-      "rank": 19,
+      "rank": 17,
       "player": "Alexandra Eala"
     },
     {
-      "rank": 20,
-      "player": "Belinda Bencic"
-    },
-    {
-      "rank": 21,
-      "player": "Madison Keys"
-    },
-    {
-      "rank": 22,
-      "player": "Qinwen Zheng"
-    },
-    {
-      "rank": 23,
+      "rank": 18,
       "player": "Leylah Fernandez"
     },
     {
-      "rank": 24,
+      "rank": 19,
+      "player": "Belinda Bencic"
+    },
+    {
+      "rank": 20,
+      "player": "Victoria Mboko"
+    },
+    {
+      "rank": 21,
+      "player": "Qinwen Zheng"
+    },
+    {
+      "rank": 22,
+      "player": "Amanda Anisimova"
+    },
+    {
+      "rank": 23,
       "player": "Marie Bouzkova"
     },
     {
+      "rank": 24,
+      "player": "Madison Keys"
+    },
+    {
       "rank": 25,
-      "player": "Anna Kalinskaya"
+      "player": "Jelena Ostapenko"
     },
     {
       "rank": 26,
-      "player": "Jelena Ostapenko"
+      "player": "Anna Kalinskaya"
     },
     {
       "rank": 27,
@@ -129,11 +129,11 @@
     },
     {
       "rank": 32,
-      "player": "Sara Bejlek"
+      "player": "Ekaterina Alexandrova"
     },
     {
       "rank": 33,
-      "player": "Ekaterina Alexandrova"
+      "player": "Sara Bejlek"
     },
     {
       "rank": 34,
@@ -145,7 +145,7 @@
     },
     {
       "rank": 36,
-      "player": "Donna Vekic"
+      "player": "Talia Gibson"
     },
     {
       "rank": 37,
@@ -153,31 +153,31 @@
     },
     {
       "rank": 38,
-      "player": "Talia Gibson"
-    },
-    {
-      "rank": 39,
       "player": "Xinyu Wang"
     },
     {
+      "rank": 39,
+      "player": "Donna Vekic"
+    },
+    {
       "rank": 40,
-      "player": "Daria Snigur"
-    },
-    {
-      "rank": 41,
-      "player": "Kimberly Birrell"
-    },
-    {
-      "rank": 42,
-      "player": "Cristina Bucsa"
-    },
-    {
-      "rank": 43,
       "player": "Ludmilla Samsonova"
     },
     {
-      "rank": 44,
+      "rank": 41,
       "player": "Ashlyn Krueger"
+    },
+    {
+      "rank": 42,
+      "player": "Daria Snigur"
+    },
+    {
+      "rank": 43,
+      "player": "Cristina Bucsa"
+    },
+    {
+      "rank": 44,
+      "player": "Kamilla Rakhimova"
     },
     {
       "rank": 45,
@@ -185,19 +185,19 @@
     },
     {
       "rank": 46,
-      "player": "Barbora Krejcikova"
+      "player": "Kimberly Birrell"
     },
     {
       "rank": 47,
-      "player": "Janice Tjen"
+      "player": "Katerina Siniakova"
     },
     {
       "rank": 48,
-      "player": "Katie Boulter"
+      "player": "Barbora Krejcikova"
     },
     {
       "rank": 49,
-      "player": "Katerina Siniakova"
+      "player": "Katie Boulter"
     },
     {
       "rank": 50,
@@ -229,7 +229,7 @@
     },
     {
       "rank": 57,
-      "player": "Lanlana Tararudee"
+      "player": "Paula Badosa"
     },
     {
       "rank": 58,
@@ -237,7 +237,7 @@
     },
     {
       "rank": 59,
-      "player": "Tamara Korpatsch"
+      "player": "Alycia Parks"
     },
     {
       "rank": 60,
@@ -245,7 +245,7 @@
     },
     {
       "rank": 61,
-      "player": "Paula Badosa"
+      "player": "Tamara Korpatsch"
     },
     {
       "rank": 62,
@@ -253,143 +253,143 @@
     },
     {
       "rank": 63,
-      "player": "Caty McNally"
+      "player": "Lanlana Tararudee"
     },
     {
       "rank": 64,
-      "player": "Zeynep Sonmez"
-    },
-    {
-      "rank": 65,
-      "player": "Alycia Parks"
-    },
-    {
-      "rank": 66,
-      "player": "Kamilla Rakhimova"
-    },
-    {
-      "rank": 67,
       "player": "Yulia Putintseva"
     },
     {
-      "rank": 68,
-      "player": "Camila Osorio"
+      "rank": 65,
+      "player": "Caty McNally"
     },
     {
-      "rank": 69,
-      "player": "Elisabetta Cocciaretto"
-    },
-    {
-      "rank": 70,
+      "rank": 66,
       "player": "Tatjana Maria"
     },
     {
-      "rank": 71,
+      "rank": 67,
+      "player": "Zeynep Sonmez"
+    },
+    {
+      "rank": 68,
       "player": "Magda Linette"
     },
     {
-      "rank": 72,
+      "rank": 69,
+      "player": "Camila Osorio"
+    },
+    {
+      "rank": 70,
       "player": "Maria Timofeeva"
     },
     {
-      "rank": 73,
-      "player": "Anna Blinkova"
-    },
-    {
-      "rank": 74,
-      "player": "Viktorija Golubic"
-    },
-    {
-      "rank": 75,
-      "player": "Daria Kasatkina"
-    },
-    {
-      "rank": 76,
-      "player": "Anna Bondar"
-    },
-    {
-      "rank": 77,
-      "player": "Sinja Kraus"
-    },
-    {
-      "rank": 78,
-      "player": "Panna Udvardy"
-    },
-    {
-      "rank": 79,
-      "player": "Alina Korneeva"
-    },
-    {
-      "rank": 80,
-      "player": "Mananchaya Sawangkaew"
-    },
-    {
-      "rank": 81,
-      "player": "Katie Volynets"
-    },
-    {
-      "rank": 82,
-      "player": "Xiyu Wang"
-    },
-    {
-      "rank": 83,
-      "player": "Jaqueline Cristian"
-    },
-    {
-      "rank": 84,
-      "player": "Antonia Ruzic"
-    },
-    {
-      "rank": 85,
-      "player": "Taylah Preston"
-    },
-    {
-      "rank": 86,
+      "rank": 71,
       "player": "Kaitlin Quevedo"
     },
     {
-      "rank": 87,
+      "rank": 72,
+      "player": "Elisabetta Cocciaretto"
+    },
+    {
+      "rank": 73,
+      "player": "Daria Kasatkina"
+    },
+    {
+      "rank": 74,
+      "player": "Anna Bondar"
+    },
+    {
+      "rank": 75,
+      "player": "Janice Tjen"
+    },
+    {
+      "rank": 76,
+      "player": "Alina Korneeva"
+    },
+    {
+      "rank": 77,
+      "player": "Mananchaya Sawangkaew"
+    },
+    {
+      "rank": 78,
+      "player": "Katie Volynets"
+    },
+    {
+      "rank": 79,
+      "player": "Jaqueline Cristian"
+    },
+    {
+      "rank": 80,
+      "player": "Xiyu Wang"
+    },
+    {
+      "rank": 81,
+      "player": "Antonia Ruzic"
+    },
+    {
+      "rank": 82,
+      "player": "Alina Charaeva"
+    },
+    {
+      "rank": 83,
+      "player": "Taylah Preston"
+    },
+    {
+      "rank": 84,
+      "player": "Harriet Dart"
+    },
+    {
+      "rank": 85,
       "player": "Tereza Valentova"
     },
     {
-      "rank": 88,
+      "rank": 86,
+      "player": "Panna Udvardy"
+    },
+    {
+      "rank": 87,
       "player": "Petra Marcinko"
     },
     {
-      "rank": 89,
+      "rank": 88,
       "player": "Taylor Townsend"
     },
     {
+      "rank": 89,
+      "player": "Viktorija Golubic"
+    },
+    {
       "rank": 90,
-      "player": "Leolia Jeanjean"
-    },
-    {
-      "rank": 91,
-      "player": "Polina Kudermetova"
-    },
-    {
-      "rank": 92,
-      "player": "Darja Vidmanova"
-    },
-    {
-      "rank": 93,
-      "player": "Shuai Zhang"
-    },
-    {
-      "rank": 94,
       "player": "Maya Joint"
     },
     {
+      "rank": 91,
+      "player": "Leolia Jeanjean"
+    },
+    {
+      "rank": 92,
+      "player": "Sinja Kraus"
+    },
+    {
+      "rank": 93,
+      "player": "Polina Kudermetova"
+    },
+    {
+      "rank": 94,
+      "player": "Darja Vidmanova"
+    },
+    {
       "rank": 95,
-      "player": "Renata Zarazua"
+      "player": "Shuai Zhang"
     },
     {
       "rank": 96,
-      "player": "Jessica Bouzas Maneiro"
+      "player": "Fiona Ferro"
     },
     {
       "rank": 97,
-      "player": "Dayana Yastremska"
+      "player": "Renata Zarazua"
     },
     {
       "rank": 98,
@@ -397,47 +397,47 @@
     },
     {
       "rank": 99,
-      "player": "Fiona Ferro"
+      "player": "Dayana Yastremska"
     },
     {
       "rank": 100,
-      "player": "Alina Charaeva"
+      "player": "Jessica Bouzas Maneiro"
     },
     {
       "rank": 101,
-      "player": "Solana Sierra"
+      "player": "Aliaksandra Sasnovich"
     },
     {
       "rank": 102,
-      "player": "Lisa Pigato"
+      "player": "Claire Liu"
     },
     {
       "rank": 103,
-      "player": "Hanne Vandewinkel"
-    },
-    {
-      "rank": 104,
-      "player": "Emma Raducanu"
-    },
-    {
-      "rank": 105,
-      "player": "Anastasia Zakharova"
-    },
-    {
-      "rank": 106,
-      "player": "Katarzyna Kawa"
-    },
-    {
-      "rank": 107,
       "player": "Kristina Liutova"
     },
     {
+      "rank": 104,
+      "player": "Solana Sierra"
+    },
+    {
+      "rank": 105,
+      "player": "Anna Blinkova"
+    },
+    {
+      "rank": 106,
+      "player": "Emma Raducanu"
+    },
+    {
+      "rank": 107,
+      "player": "Anastasia Zakharova"
+    },
+    {
       "rank": 108,
-      "player": "Dominika Salkova"
+      "player": "Lisa Pigato"
     },
     {
       "rank": 109,
-      "player": "Claire Liu"
+      "player": "Bianca Andreescu"
     },
     {
       "rank": 110,
@@ -445,23 +445,23 @@
     },
     {
       "rank": 111,
-      "player": "Elvina Kalieva"
+      "player": "Hanne Vandewinkel"
     },
     {
       "rank": 112,
-      "player": "Aliaksandra Sasnovich"
+      "player": "Julia Grabher"
     },
     {
       "rank": 113,
-      "player": "Mary Stoiana"
+      "player": "Sloane Stephens"
     },
     {
       "rank": 114,
-      "player": "Himeno Sakatsume"
+      "player": "Mary Stoiana"
     },
     {
       "rank": 115,
-      "player": "Harriet Dart"
+      "player": "Katarzyna Kawa"
     },
     {
       "rank": 116,
@@ -469,35 +469,35 @@
     },
     {
       "rank": 117,
-      "player": "Sloane Stephens"
-    },
-    {
-      "rank": 118,
       "player": "Lucrezia Stefanini"
     },
     {
+      "rank": 118,
+      "player": "Noma Noha Akugue"
+    },
+    {
       "rank": 119,
-      "player": "Kayla Day"
+      "player": "Mia Pohankova"
     },
     {
       "rank": 120,
-      "player": "Oksana Selekhmeteva"
+      "player": "Elvina Kalieva"
     },
     {
       "rank": 121,
-      "player": "Moyuka Uchijima"
+      "player": "Kayla Day"
     },
     {
       "rank": 122,
-      "player": "Julia Grabher"
+      "player": "Oksana Selekhmeteva"
     },
     {
       "rank": 123,
-      "player": "Tatiana Prozorova"
+      "player": "Moyuka Uchijima"
     },
     {
       "rank": 124,
-      "player": "Jeline Vandromme"
+      "player": "Tatiana Prozorova"
     },
     {
       "rank": 125,
@@ -505,23 +505,23 @@
     },
     {
       "rank": 126,
-      "player": "Noma Noha Akugue"
+      "player": "Jeline Vandromme"
     },
     {
       "rank": 127,
-      "player": "Emerson Jones"
+      "player": "Veronika Podrez"
     },
     {
       "rank": 128,
-      "player": "Simona Waltert"
+      "player": "Dominika Salkova"
     },
     {
       "rank": 129,
-      "player": "Bianca Andreescu"
+      "player": "Himeno Sakatsume"
     },
     {
       "rank": 130,
-      "player": "Maddison Inglis"
+      "player": "Elsa Jacquemot"
     },
     {
       "rank": 131,
@@ -529,91 +529,91 @@
     },
     {
       "rank": 132,
-      "player": "Lucia Bronzetti"
+      "player": "Emerson Jones"
     },
     {
       "rank": 133,
-      "player": "Alexandra Shubladze"
+      "player": "Simona Waltert"
     },
     {
       "rank": 134,
-      "player": "Ajla Tomljanovic"
+      "player": "Lucia Bronzetti"
     },
     {
       "rank": 135,
-      "player": "Elsa Jacquemot"
+      "player": "Maddison Inglis"
     },
     {
       "rank": 136,
-      "player": "Veronika Podrez"
+      "player": "Alexandra Shubladze"
     },
     {
       "rank": 137,
-      "player": "Andrea Lazaro Garcia"
-    },
-    {
-      "rank": 138,
-      "player": "Guiomar Maristany"
-    },
-    {
-      "rank": 139,
-      "player": "Elizara Yaneva"
-    },
-    {
-      "rank": 140,
       "player": "Julia Riera"
     },
     {
-      "rank": 141,
+      "rank": 138,
+      "player": "Elizara Yaneva"
+    },
+    {
+      "rank": 139,
       "player": "Tamara Zidansek"
     },
     {
-      "rank": 142,
-      "player": "Rebecca Sramkova"
+      "rank": 140,
+      "player": "Andrea Lazaro Garcia"
     },
     {
-      "rank": 143,
+      "rank": 141,
       "player": "Teodora Kostovic"
     },
     {
+      "rank": 142,
+      "player": "Guiomar Maristany"
+    },
+    {
+      "rank": 143,
+      "player": "Ajla Tomljanovic"
+    },
+    {
       "rank": 144,
-      "player": "Mia Pohankova"
-    },
-    {
-      "rank": 145,
-      "player": "Elina Avanesyan"
-    },
-    {
-      "rank": 146,
-      "player": "Storm Hunter"
-    },
-    {
-      "rank": 147,
-      "player": "Polina Iatcenko"
-    },
-    {
-      "rank": 148,
-      "player": "Martyna Kubka"
-    },
-    {
-      "rank": 149,
-      "player": "Susan Bandecchi"
-    },
-    {
-      "rank": 150,
-      "player": "Robin Montgomery"
-    },
-    {
-      "rank": 151,
       "player": "Clara Burel"
     },
     {
+      "rank": 145,
+      "player": "Martyna Kubka"
+    },
+    {
+      "rank": 146,
+      "player": "Rebecca Sramkova"
+    },
+    {
+      "rank": 147,
+      "player": "Jil Teichmann"
+    },
+    {
+      "rank": 148,
+      "player": "Han Shi"
+    },
+    {
+      "rank": 149,
+      "player": "Elina Avanesyan"
+    },
+    {
+      "rank": 150,
+      "player": "Ayla Aksu"
+    },
+    {
+      "rank": 151,
+      "player": "Robin Montgomery"
+    },
+    {
       "rank": 152,
-      "player": "Dalma Galfi"
+      "player": "Alice Tubello"
     },
     {
       "rank": 153,
-      "player": "Linda Fruhvirtova"
+      "player": "Carol Lee"
     },
     {
       "rank": 154,
@@ -621,127 +621,127 @@
     },
     {
       "rank": 155,
-      "player": "Joanna Garland"
+      "player": "Dalma Galfi"
     },
     {
       "rank": 156,
-      "player": "Carol Lee"
-    },
-    {
-      "rank": 157,
-      "player": "Emiliana Arango"
-    },
-    {
-      "rank": 158,
-      "player": "Rebeka Masarova"
-    },
-    {
-      "rank": 159,
-      "player": "Ayla Aksu"
-    },
-    {
-      "rank": 160,
-      "player": "Eva Lys"
-    },
-    {
-      "rank": 161,
-      "player": "Veronika Erjavec"
-    },
-    {
-      "rank": 162,
-      "player": "Han Shi"
-    },
-    {
-      "rank": 163,
-      "player": "Mai Hontama"
-    },
-    {
-      "rank": 164,
-      "player": "Gabriela Knutson"
-    },
-    {
-      "rank": 165,
-      "player": "Yeon Woo Ku"
-    },
-    {
-      "rank": 166,
-      "player": "Anastasiya Soboleva"
-    },
-    {
-      "rank": 167,
-      "player": "Sara Sorribes Tormo"
-    },
-    {
-      "rank": 168,
-      "player": "Jil Teichmann"
-    },
-    {
-      "rank": 169,
-      "player": "Vendula Valdmannova"
-    },
-    {
-      "rank": 170,
-      "player": "Yue Yuan"
-    },
-    {
-      "rank": 171,
-      "player": "Alevtina Ibragimova"
-    },
-    {
-      "rank": 172,
-      "player": "Anna Siskova"
-    },
-    {
-      "rank": 173,
-      "player": "Jazmin Ortenzi"
-    },
-    {
-      "rank": 174,
       "player": "Akasha Urhobo"
     },
     {
-      "rank": 175,
+      "rank": 157,
+      "player": "Rebeka Masarova"
+    },
+    {
+      "rank": 158,
+      "player": "Veronika Erjavec"
+    },
+    {
+      "rank": 159,
+      "player": "Gabriela Knutson"
+    },
+    {
+      "rank": 160,
+      "player": "Mai Hontama"
+    },
+    {
+      "rank": 161,
+      "player": "Storm Hunter"
+    },
+    {
+      "rank": 162,
+      "player": "Alevtina Ibragimova"
+    },
+    {
+      "rank": 163,
+      "player": "Anastasiya Soboleva"
+    },
+    {
+      "rank": 164,
+      "player": "Sara Sorribes Tormo"
+    },
+    {
+      "rank": 165,
+      "player": "Susan Bandecchi"
+    },
+    {
+      "rank": 166,
+      "player": "Vendula Valdmannova"
+    },
+    {
+      "rank": 167,
+      "player": "Linda Fruhvirtova"
+    },
+    {
+      "rank": 168,
+      "player": "Yue Yuan"
+    },
+    {
+      "rank": 169,
+      "player": "Polina Iatcenko"
+    },
+    {
+      "rank": 170,
+      "player": "Anna Siskova"
+    },
+    {
+      "rank": 171,
+      "player": "Emiliana Arango"
+    },
+    {
+      "rank": 172,
+      "player": "Caroline Dolehide"
+    },
+    {
+      "rank": 173,
       "player": "Darja Semenistaja"
     },
     {
-      "rank": 176,
+      "rank": 174,
+      "player": "Eva Lys"
+    },
+    {
+      "rank": 175,
       "player": "Darya Astakhova"
     },
     {
-      "rank": 177,
-      "player": "Sofia Costoulas"
-    },
-    {
-      "rank": 178,
+      "rank": 176,
       "player": "Madison Brengle"
     },
     {
-      "rank": 179,
-      "player": "Eva Vedder"
-    },
-    {
-      "rank": 180,
-      "player": "Ekaterine Gorgodze"
-    },
-    {
-      "rank": 181,
+      "rank": 177,
       "player": "Barbora Palicova"
     },
     {
+      "rank": 178,
+      "player": "Eva Vedder"
+    },
+    {
+      "rank": 179,
+      "player": "Ekaterine Gorgodze"
+    },
+    {
+      "rank": 180,
+      "player": "Jazmin Ortenzi"
+    },
+    {
+      "rank": 181,
+      "player": "Yeon Woo Ku"
+    },
+    {
       "rank": 182,
-      "player": "Mia Ristic"
+      "player": "Reese Brantmeier"
     },
     {
       "rank": 183,
-      "player": "Varvara Lepchenko"
+      "player": "Sofia Costoulas"
     },
     {
       "rank": 184,
-      "player": "Lucie Havlickova"
+      "player": "Mia Ristic"
     },
     {
       "rank": 185,
-      "player": "Mona Barthel"
+      "player": "Lucie Havlickova"
     },
     {
       "rank": 186,
@@ -753,391 +753,391 @@
     },
     {
       "rank": 188,
-      "player": "Hanyu Guo"
-    },
-    {
-      "rank": 189,
-      "player": "Kayla Cross"
-    },
-    {
-      "rank": 190,
-      "player": "Elena Pridankina"
-    },
-    {
-      "rank": 191,
-      "player": "Laura Siegemund"
-    },
-    {
-      "rank": 192,
-      "player": "Katie Swan"
-    },
-    {
-      "rank": 193,
-      "player": "Nao Hibino"
-    },
-    {
-      "rank": 194,
-      "player": "Ye-Xin Ma"
-    },
-    {
-      "rank": 195,
-      "player": "Rositsa Dencheva"
-    },
-    {
-      "rank": 196,
-      "player": "Aliona Falei"
-    },
-    {
-      "rank": 197,
-      "player": "Julia Avdeeva"
-    },
-    {
-      "rank": 198,
-      "player": "Zhuoxuan Bai"
-    },
-    {
-      "rank": 199,
-      "player": "Luisina Giovannini"
-    },
-    {
-      "rank": 200,
-      "player": "Harmony Tan"
-    },
-    {
-      "rank": 201,
       "player": "Nadia Podoroska"
     },
     {
-      "rank": 202,
-      "player": "Anastasia Gasanova"
-    },
-    {
-      "rank": 203,
-      "player": "Despina Papamichail"
-    },
-    {
-      "rank": 204,
-      "player": "Francesca Curmi"
-    },
-    {
-      "rank": 205,
-      "player": "Fiona Crawley"
-    },
-    {
-      "rank": 206,
-      "player": "Polona Hercog"
-    },
-    {
-      "rank": 207,
-      "player": "Alice Tubello"
-    },
-    {
-      "rank": 208,
-      "player": "Xiaodi You"
-    },
-    {
-      "rank": 209,
-      "player": "Alicia Dudeney"
-    },
-    {
-      "rank": 210,
-      "player": "Elizabeth Mandlik"
-    },
-    {
-      "rank": 211,
-      "player": "Victoria Jimenez Kasintseva"
-    },
-    {
-      "rank": 212,
-      "player": "Celine Naef"
-    },
-    {
-      "rank": 213,
-      "player": "Ane Mintegi Del Olmo"
-    },
-    {
-      "rank": 214,
-      "player": "Erika Andreeva"
-    },
-    {
-      "rank": 215,
-      "player": "Irene Burillo"
-    },
-    {
-      "rank": 216,
-      "player": "Hayu Kinoshita"
-    },
-    {
-      "rank": 217,
-      "player": "Reese Brantmeier"
-    },
-    {
-      "rank": 218,
-      "player": "Angela Fita Boluda"
-    },
-    {
-      "rank": 219,
-      "player": "Ella Seidel"
-    },
-    {
-      "rank": 220,
-      "player": "Viktoria Hruncakova"
-    },
-    {
-      "rank": 221,
-      "player": "Kajsa Rinaldo Persson"
-    },
-    {
-      "rank": 222,
-      "player": "Caroline Dolehide"
-    },
-    {
-      "rank": 223,
-      "player": "Iryna Shymanovich"
-    },
-    {
-      "rank": 224,
-      "player": "Varvara Gracheva"
-    },
-    {
-      "rank": 225,
+      "rank": 189,
       "player": "Suzan Lamens"
     },
     {
-      "rank": 226,
-      "player": "Nuria Brancaccio"
+      "rank": 190,
+      "player": "Laura Siegemund"
     },
     {
-      "rank": 227,
-      "player": "Alicia Herrero Linana"
+      "rank": 191,
+      "player": "Luisina Giovannini"
     },
     {
-      "rank": 228,
-      "player": "Xinyu Gao"
+      "rank": 192,
+      "player": "Francesca Curmi"
     },
     {
-      "rank": 229,
-      "player": "Katarina Zavatska"
+      "rank": 193,
+      "player": "Mona Barthel"
     },
     {
-      "rank": 230,
-      "player": "Katherine Sebov"
+      "rank": 194,
+      "player": "Harmony Tan"
     },
     {
-      "rank": 231,
-      "player": "Whitney Osuigwe"
+      "rank": 195,
+      "player": "Nao Hibino"
     },
     {
-      "rank": 232,
-      "player": "Noemi Basiletti"
+      "rank": 196,
+      "player": "Joanna Garland"
     },
     {
-      "rank": 233,
-      "player": "Anouk Koevermans"
+      "rank": 197,
+      "player": "Kayla Cross"
     },
     {
-      "rank": 234,
-      "player": "Justina Mikulskyte"
+      "rank": 198,
+      "player": "Rositsa Dencheva"
     },
     {
-      "rank": 235,
+      "rank": 199,
+      "player": "Varvara Lepchenko"
+    },
+    {
+      "rank": 200,
+      "player": "Alicia Dudeney"
+    },
+    {
+      "rank": 201,
+      "player": "Polona Hercog"
+    },
+    {
+      "rank": 202,
       "player": "Julieta Pareja"
     },
     {
-      "rank": 236,
-      "player": "Francisca Jorge"
+      "rank": 203,
+      "player": "Julia Avdeeva"
     },
     {
-      "rank": 237,
-      "player": "Caijsa Hennemann"
+      "rank": 204,
+      "player": "Anastasia Gasanova"
     },
     {
-      "rank": 238,
-      "player": "Greet Minnen"
+      "rank": 205,
+      "player": "Katie Swan"
     },
     {
-      "rank": 239,
-      "player": "Maria Carle"
+      "rank": 206,
+      "player": "Elena Pridankina"
     },
     {
-      "rank": 240,
-      "player": "Marina Stakusic"
+      "rank": 207,
+      "player": "Ye-Xin Ma"
     },
     {
-      "rank": 241,
-      "player": "Kyoka Okamura"
+      "rank": 208,
+      "player": "Ane Mintegi Del Olmo"
     },
     {
-      "rank": 242,
-      "player": "Matilde Jorge"
+      "rank": 209,
+      "player": "Despina Papamichail"
     },
     {
-      "rank": 243,
+      "rank": 210,
+      "player": "Aliona Falei"
+    },
+    {
+      "rank": 211,
+      "player": "Fiona Crawley"
+    },
+    {
+      "rank": 212,
+      "player": "Erika Andreeva"
+    },
+    {
+      "rank": 213,
+      "player": "Hanyu Guo"
+    },
+    {
+      "rank": 214,
+      "player": "Victoria Jimenez Kasintseva"
+    },
+    {
+      "rank": 215,
+      "player": "Xiaodi You"
+    },
+    {
+      "rank": 216,
+      "player": "Celine Naef"
+    },
+    {
+      "rank": 217,
+      "player": "Angela Fita Boluda"
+    },
+    {
+      "rank": 218,
       "player": "Carole Monnet"
     },
     {
-      "rank": 244,
-      "player": "Berfu Cengiz"
+      "rank": 219,
+      "player": "Irene Burillo"
     },
     {
-      "rank": 245,
-      "player": "Fangran Tian"
+      "rank": 220,
+      "player": "Hayu Kinoshita"
     },
     {
-      "rank": 246,
-      "player": "Yuki Naito"
+      "rank": 221,
+      "player": "Elizabeth Mandlik"
     },
     {
-      "rank": 247,
-      "player": "Laura Pigossi"
+      "rank": 222,
+      "player": "Katherine Sebov"
     },
     {
-      "rank": 248,
+      "rank": 223,
+      "player": "Viktoria Hruncakova"
+    },
+    {
+      "rank": 224,
+      "player": "Alicia Herrero Linana"
+    },
+    {
+      "rank": 225,
+      "player": "Kajsa Rinaldo Persson"
+    },
+    {
+      "rank": 226,
+      "player": "Iryna Shymanovich"
+    },
+    {
+      "rank": 227,
+      "player": "Varvara Gracheva"
+    },
+    {
+      "rank": 228,
+      "player": "Nuria Brancaccio"
+    },
+    {
+      "rank": 229,
+      "player": "Zhuoxuan Bai"
+    },
+    {
+      "rank": 230,
+      "player": "Ella Seidel"
+    },
+    {
+      "rank": 231,
+      "player": "Xinyu Gao"
+    },
+    {
+      "rank": 232,
+      "player": "Maria Carle"
+    },
+    {
+      "rank": 233,
+      "player": "Whitney Osuigwe"
+    },
+    {
+      "rank": 234,
       "player": "Hannah Klugman"
     },
     {
-      "rank": 249,
-      "player": "Hiromi Abe"
+      "rank": 235,
+      "player": "Justina Mikulskyte"
     },
     {
-      "rank": 250,
-      "player": "Vivian Wolff"
+      "rank": 236,
+      "player": "Noemi Basiletti"
     },
     {
-      "rank": 251,
-      "player": "Anna-Lena Friedsam"
+      "rank": 237,
+      "player": "Yuki Naito"
     },
     {
-      "rank": 252,
-      "player": "Joelle Steur"
+      "rank": 238,
+      "player": "Caijsa Hennemann"
     },
     {
-      "rank": 253,
+      "rank": 239,
+      "player": "Francisca Jorge"
+    },
+    {
+      "rank": 240,
+      "player": "Greet Minnen"
+    },
+    {
+      "rank": 241,
+      "player": "Anouk Koevermans"
+    },
+    {
+      "rank": 242,
+      "player": "Katarina Zavatska"
+    },
+    {
+      "rank": 243,
       "player": "Valentina Ryser"
     },
     {
-      "rank": 254,
+      "rank": 244,
+      "player": "Matilde Jorge"
+    },
+    {
+      "rank": 245,
+      "player": "Berfu Cengiz"
+    },
+    {
+      "rank": 246,
+      "player": "Hiromi Abe"
+    },
+    {
+      "rank": 247,
       "player": "Sara Saito"
     },
     {
-      "rank": 255,
-      "player": "Yasmine Kabbaj"
+      "rank": 248,
+      "player": "Vivian Wolff"
     },
     {
-      "rank": 256,
-      "player": "Lois Boisson"
+      "rank": 249,
+      "player": "Kyoka Okamura"
     },
     {
-      "rank": 257,
-      "player": "Mei Yamaguchi"
+      "rank": 250,
+      "player": "Anna-Lena Friedsam"
     },
     {
-      "rank": 258,
-      "player": "Lin Zhu"
+      "rank": 251,
+      "player": "Joelle Steur"
     },
     {
-      "rank": 259,
-      "player": "Julie Struplova"
-    },
-    {
-      "rank": 260,
-      "player": "Carolyn Ansari"
-    },
-    {
-      "rank": 261,
-      "player": "Dayeon Back"
-    },
-    {
-      "rank": 262,
-      "player": "Caroline Werner"
-    },
-    {
-      "rank": 263,
-      "player": "Arantxa Rus"
-    },
-    {
-      "rank": 264,
-      "player": "Linda Klimovicova"
-    },
-    {
-      "rank": 265,
-      "player": "Sofya Lansere"
-    },
-    {
-      "rank": 266,
+      "rank": 252,
       "player": "Jennifer Ruggeri"
     },
     {
-      "rank": 267,
-      "player": "Martha Matoula"
-    },
-    {
-      "rank": 268,
-      "player": "Xinxin Yao"
-    },
-    {
-      "rank": 269,
-      "player": "Ipek Oz"
-    },
-    {
-      "rank": 270,
+      "rank": 253,
       "player": "Federica Urgesi"
     },
     {
-      "rank": 271,
-      "player": "Alisa Oktiabreva"
+      "rank": 254,
+      "player": "Yasmine Kabbaj"
     },
     {
-      "rank": 272,
-      "player": "Aurora Zantedeschi"
-    },
-    {
-      "rank": 273,
-      "player": "Ayana Akli"
-    },
-    {
-      "rank": 274,
-      "player": "Viktoria Morvayova"
-    },
-    {
-      "rank": 275,
-      "player": "Britt Du Pree"
-    },
-    {
-      "rank": 276,
-      "player": "Giorgia Pedone"
-    },
-    {
-      "rank": 277,
-      "player": "Martina Capurro Taborda"
-    },
-    {
-      "rank": 278,
-      "player": "Nastasja Schunk"
-    },
-    {
-      "rank": 279,
-      "player": "Francesca Pace"
-    },
-    {
-      "rank": 280,
-      "player": "Vera Zvonareva"
-    },
-    {
-      "rank": 281,
-      "player": "Haruka Kaji"
-    },
-    {
-      "rank": 282,
+      "rank": 255,
       "player": "Malaika Rapolu"
     },
     {
+      "rank": 256,
+      "player": "Linda Klimovicova"
+    },
+    {
+      "rank": 257,
+      "player": "Xinxin Yao"
+    },
+    {
+      "rank": 258,
+      "player": "Lois Boisson"
+    },
+    {
+      "rank": 259,
+      "player": "Oceane Dodin"
+    },
+    {
+      "rank": 260,
+      "player": "Laura Pigossi"
+    },
+    {
+      "rank": 261,
+      "player": "Ayana Akli"
+    },
+    {
+      "rank": 262,
+      "player": "Lin Zhu"
+    },
+    {
+      "rank": 263,
+      "player": "Nastasja Schunk"
+    },
+    {
+      "rank": 264,
+      "player": "Ipek Oz"
+    },
+    {
+      "rank": 265,
+      "player": "Dayeon Back"
+    },
+    {
+      "rank": 266,
+      "player": "Sofya Lansere"
+    },
+    {
+      "rank": 267,
+      "player": "Julie Struplova"
+    },
+    {
+      "rank": 268,
+      "player": "Arantxa Rus"
+    },
+    {
+      "rank": 269,
+      "player": "Fangran Tian"
+    },
+    {
+      "rank": 270,
+      "player": "Martha Matoula"
+    },
+    {
+      "rank": 271,
+      "player": "Han-na Chang"
+    },
+    {
+      "rank": 272,
+      "player": "Caroline Werner"
+    },
+    {
+      "rank": 273,
+      "player": "Carolyn Ansari"
+    },
+    {
+      "rank": 274,
+      "player": "Alisa Oktiabreva"
+    },
+    {
+      "rank": 275,
+      "player": "Lola Radivojevic"
+    },
+    {
+      "rank": 276,
+      "player": "Aurora Zantedeschi"
+    },
+    {
+      "rank": 277,
+      "player": "Weronika Falkowska"
+    },
+    {
+      "rank": 278,
+      "player": "Britt Du Pree"
+    },
+    {
+      "rank": 279,
+      "player": "Anastasia Tikhonova"
+    },
+    {
+      "rank": 280,
+      "player": "Martina Capurro Taborda"
+    },
+    {
+      "rank": 281,
+      "player": "Daria Khomutsianskaya"
+    },
+    {
+      "rank": 282,
+      "player": "Mei Yamaguchi"
+    },
+    {
       "rank": 283,
-      "player": "Lisa Zaar"
+      "player": "Vera Zvonareva"
     },
     {
       "rank": 284,
-      "player": "Lola Radivojevic"
+      "player": "Daria Egorova"
     },
     {
       "rank": 285,
@@ -1145,15 +1145,15 @@
     },
     {
       "rank": 286,
-      "player": "Elena Malygina"
+      "player": "Eva Bennemann"
     },
     {
       "rank": 287,
-      "player": "Weronika Falkowska"
+      "player": "Haruka Kaji"
     },
     {
       "rank": 288,
-      "player": "Lizette Cabrera"
+      "player": "Lea Ma"
     },
     {
       "rank": 289,
@@ -1165,83 +1165,83 @@
     },
     {
       "rank": 291,
-      "player": "Priscilla Hon"
+      "player": "Lisa Zaar"
     },
     {
       "rank": 292,
-      "player": "Eva Bennemann"
+      "player": "Priscilla Hon"
     },
     {
       "rank": 293,
-      "player": "Oceane Dodin"
-    },
-    {
-      "rank": 294,
       "player": "Jessika Ponchet"
     },
     {
+      "rank": 294,
+      "player": "Lizette Cabrera"
+    },
+    {
       "rank": 295,
-      "player": "Sohyun Park"
+      "player": "Giorgia Pedone"
     },
     {
       "rank": 296,
-      "player": "Anastasia Zolotareva"
+      "player": "Sohyun Park"
     },
     {
       "rank": 297,
-      "player": "Han-na Chang"
-    },
-    {
-      "rank": 298,
-      "player": "Zongyu Li"
-    },
-    {
-      "rank": 299,
-      "player": "Ariana Geerlings"
-    },
-    {
-      "rank": 300,
-      "player": "Aoi Ito"
-    },
-    {
-      "rank": 301,
-      "player": "Martina Trevisan"
-    },
-    {
-      "rank": 302,
-      "player": "Savannah Broadus"
-    },
-    {
-      "rank": 303,
       "player": "Anastasia Kulikova"
     },
     {
-      "rank": 304,
-      "player": "Daria Khomutsianskaya"
+      "rank": 298,
+      "player": "Ariana Geerlings"
     },
     {
-      "rank": 305,
-      "player": "Rina Saigo"
+      "rank": 299,
+      "player": "Aoi Ito"
     },
     {
-      "rank": 306,
+      "rank": 300,
+      "player": "Martina Trevisan"
+    },
+    {
+      "rank": 301,
+      "player": "Elena Malygina"
+    },
+    {
+      "rank": 302,
       "player": "Alena Kovackova"
     },
     {
-      "rank": 307,
-      "player": "Lea Ma"
+      "rank": 303,
+      "player": "Xinran Sun"
     },
     {
-      "rank": 308,
+      "rank": 304,
+      "player": "Zongyu Li"
+    },
+    {
+      "rank": 305,
+      "player": "Cadence Brace"
+    },
+    {
+      "rank": 306,
+      "player": "Savannah Broadus"
+    },
+    {
+      "rank": 307,
       "player": "Elena Ruxandra Bertea"
     },
     {
-      "rank": 309,
+      "rank": 308,
       "player": "Carolina Alves"
     },
     {
+      "rank": 309,
+      "player": "Katarina Kuzmova"
+    },
+    {
       "rank": 310,
-      "player": "Selena Janicijevic"
+      "player": "Kylie Collins"
     },
     {
       "rank": 311,
@@ -1249,23 +1249,23 @@
     },
     {
       "rank": 312,
-      "player": "Chloe Paquet"
-    },
-    {
-      "rank": 313,
-      "player": "Anastasia Tikhonova"
-    },
-    {
-      "rank": 314,
       "player": "Mariam Bolkvadze"
     },
     {
-      "rank": 315,
+      "rank": 313,
       "player": "Tereza Martincova"
     },
     {
-      "rank": 316,
+      "rank": 314,
+      "player": "Lidia Encheva"
+    },
+    {
+      "rank": 315,
       "player": "Victoria Bosio"
+    },
+    {
+      "rank": 316,
+      "player": "Ella Mcdonald"
     },
     {
       "rank": 317,
@@ -1273,7 +1273,7 @@
     },
     {
       "rank": 318,
-      "player": "Katarina Kuzmova"
+      "player": "Anastasia Zolotareva"
     },
     {
       "rank": 319,
@@ -1281,23 +1281,23 @@
     },
     {
       "rank": 320,
-      "player": "Kylie Collins"
+      "player": "Marina Stakusic"
     },
     {
       "rank": 321,
-      "player": "Ena Koike"
+      "player": "Francesca Pace"
     },
     {
       "rank": 322,
-      "player": "Lucciana Perez Alarcon"
+      "player": "Selena Janicijevic"
     },
     {
       "rank": 323,
-      "player": "Gina Feistel"
+      "player": "Viktoria Morvayova"
     },
     {
       "rank": 324,
-      "player": "Lidia Encheva"
+      "player": "Gina Feistel"
     },
     {
       "rank": 325,
@@ -1309,167 +1309,167 @@
     },
     {
       "rank": 327,
-      "player": "Ella Mcdonald"
-    },
-    {
-      "rank": 328,
-      "player": "Cadence Brace"
-    },
-    {
-      "rank": 329,
-      "player": "Ariana Arseneault"
-    },
-    {
-      "rank": 330,
-      "player": "Zuzanna Pawlikowska"
-    },
-    {
-      "rank": 331,
-      "player": "Daria Egorova"
-    },
-    {
-      "rank": 332,
-      "player": "En-shuo Liang"
-    },
-    {
-      "rank": 333,
-      "player": "Kristiana Sidorova"
-    },
-    {
-      "rank": 334,
-      "player": "Vaishnavi Adkar"
-    },
-    {
-      "rank": 335,
-      "player": "Deborah Chiesa"
-    },
-    {
-      "rank": 336,
-      "player": "Sada Nahimana"
-    },
-    {
-      "rank": 337,
-      "player": "Margaux Rouvroy"
-    },
-    {
-      "rank": 338,
-      "player": "Kathinka von Deichmann"
-    },
-    {
-      "rank": 339,
-      "player": "Jessica Pieri"
-    },
-    {
-      "rank": 340,
-      "player": "Rada Zolotareva"
-    },
-    {
-      "rank": 341,
       "player": "Jenny Lim"
     },
     {
-      "rank": 342,
-      "player": "Luna Vujovic"
+      "rank": 328,
+      "player": "Rada Zolotareva"
     },
     {
-      "rank": 343,
+      "rank": 329,
+      "player": "Rina Saigo"
+    },
+    {
+      "rank": 330,
+      "player": "En-shuo Liang"
+    },
+    {
+      "rank": 331,
       "player": "Tessa Johanna Brockmann"
     },
     {
-      "rank": 344,
-      "player": "Manon Leonard"
+      "rank": 332,
+      "player": "Zuzanna Pawlikowska"
     },
     {
-      "rank": 345,
-      "player": "Alina Granwehr"
+      "rank": 333,
+      "player": "Chloe Paquet"
     },
     {
-      "rank": 346,
-      "player": "Gabriela Ce"
+      "rank": 334,
+      "player": "Sada Nahimana"
     },
     {
-      "rank": 347,
-      "player": "Lea Nilsson"
+      "rank": 335,
+      "player": "Ena Koike"
     },
     {
-      "rank": 348,
-      "player": "Ana Sofia Sanchez"
+      "rank": 336,
+      "player": "Lucciana Perez Alarcon"
     },
     {
-      "rank": 349,
-      "player": "Naiktha Bains"
+      "rank": 337,
+      "player": "Ariana Arseneault"
     },
     {
-      "rank": 350,
-      "player": "Radka Zelnickova"
-    },
-    {
-      "rank": 351,
+      "rank": 338,
       "player": "Maria Teixido Garcia"
     },
     {
-      "rank": 352,
-      "player": "Alessandra Mazzola"
+      "rank": 339,
+      "player": "Gabriela Ce"
     },
     {
-      "rank": 353,
-      "player": "Yelyzaveta Kotliar"
+      "rank": 340,
+      "player": "Deborah Chiesa"
     },
     {
-      "rank": 354,
-      "player": "Sofia Johnson"
-    },
-    {
-      "rank": 355,
-      "player": "Mell Reasco Gonzalez"
-    },
-    {
-      "rank": 356,
-      "player": "Hibah Shaikh"
-    },
-    {
-      "rank": 357,
+      "rank": 341,
       "player": "Elena Milovanovic"
     },
     {
-      "rank": 358,
-      "player": "Jiajing Lu"
+      "rank": 342,
+      "player": "Manon Leonard"
     },
     {
-      "rank": 359,
+      "rank": 343,
+      "player": "Margaux Rouvroy"
+    },
+    {
+      "rank": 344,
+      "player": "Vaishnavi Adkar"
+    },
+    {
+      "rank": 345,
+      "player": "Jessica Pieri"
+    },
+    {
+      "rank": 346,
+      "player": "Alessandra Mazzola"
+    },
+    {
+      "rank": 347,
+      "player": "Luna Vujovic"
+    },
+    {
+      "rank": 348,
+      "player": "Yelyzaveta Kotliar"
+    },
+    {
+      "rank": 349,
       "player": "Madison Sieg"
     },
     {
-      "rank": 360,
-      "player": "Maria Golovina"
+      "rank": 350,
+      "player": "Alina Granwehr"
     },
     {
-      "rank": 361,
-      "player": "Carlota Martinez Cirez"
+      "rank": 351,
+      "player": "Kathinka von Deichmann"
     },
     {
-      "rank": 362,
-      "player": "Loes Ebeling Koning"
-    },
-    {
-      "rank": 363,
+      "rank": 352,
       "player": "Varvara Panshina"
     },
     {
-      "rank": 364,
+      "rank": 353,
+      "player": "Ana Sofia Sanchez"
+    },
+    {
+      "rank": 354,
+      "player": "Naiktha Bains"
+    },
+    {
+      "rank": 355,
+      "player": "Kristiana Sidorova"
+    },
+    {
+      "rank": 356,
+      "player": "Lea Nilsson"
+    },
+    {
+      "rank": 357,
+      "player": "Radka Zelnickova"
+    },
+    {
+      "rank": 358,
+      "player": "Maria Golovina"
+    },
+    {
+      "rank": 359,
       "player": "Valentina Steiner"
     },
     {
+      "rank": 360,
+      "player": "Mell Reasco Gonzalez"
+    },
+    {
+      "rank": 361,
+      "player": "Heather Watson"
+    },
+    {
+      "rank": 362,
+      "player": "Hibah Shaikh"
+    },
+    {
+      "rank": 363,
+      "player": "Sofia Johnson"
+    },
+    {
+      "rank": 364,
+      "player": "Carlota Martinez Cirez"
+    },
+    {
       "rank": 365,
-      "player": "Lucie Nguyen Tan"
+      "player": "Lina Gjorcheska"
     },
     {
       "rank": 366,
-      "player": "Anouck Vrancken Peeters"
+      "player": "Lucie Nguyen Tan"
     },
     {
       "rank": 367,
-      "player": "Miho Kuramochi"
+      "player": "Anouck Vrancken Peeters"
     },
     {
       "rank": 368,
@@ -1477,15 +1477,15 @@
     },
     {
       "rank": 369,
-      "player": "Sahaja Yamalapalli"
+      "player": "Loes Ebeling Koning"
     },
     {
       "rank": 370,
-      "player": "Lina Gjorcheska"
+      "player": "Ksenia Zaytseva"
     },
     {
       "rank": 371,
-      "player": "Sijia Wei"
+      "player": "Hikaru Sato"
     },
     {
       "rank": 372,
@@ -1493,155 +1493,155 @@
     },
     {
       "rank": 373,
-      "player": "Heather Watson"
-    },
-    {
-      "rank": 374,
-      "player": "Katrina Scott"
-    },
-    {
-      "rank": 375,
-      "player": "Momoko Kobori"
-    },
-    {
-      "rank": 376,
-      "player": "Ksenia Zaytseva"
-    },
-    {
-      "rank": 377,
-      "player": "Miriam Bulgaru"
-    },
-    {
-      "rank": 378,
-      "player": "Lia Karatancheva"
-    },
-    {
-      "rank": 379,
-      "player": "Lulu Sun"
-    },
-    {
-      "rank": 380,
-      "player": "Viktoriya Tomova"
-    },
-    {
-      "rank": 381,
-      "player": "Amelia Rajecki"
-    },
-    {
-      "rank": 382,
-      "player": "Dalila Jakupovic"
-    },
-    {
-      "rank": 383,
       "player": "Lucia Cortez Llorca"
     },
     {
-      "rank": 384,
-      "player": "Weronika Ewald"
+      "rank": 374,
+      "player": "Miriam Bulgaru"
     },
     {
-      "rank": 385,
-      "player": "Eva Guerrero Alvarez"
+      "rank": 375,
+      "player": "Sijia Wei"
     },
     {
-      "rank": 386,
+      "rank": 376,
+      "player": "Katrina Scott"
+    },
+    {
+      "rank": 377,
+      "player": "Jiajing Lu"
+    },
+    {
+      "rank": 378,
       "player": "Miriana Tona"
     },
     {
-      "rank": 387,
+      "rank": 379,
+      "player": "Miho Kuramochi"
+    },
+    {
+      "rank": 380,
+      "player": "Lulu Sun"
+    },
+    {
+      "rank": 381,
+      "player": "Viktoriya Tomova"
+    },
+    {
+      "rank": 382,
+      "player": "Amelia Rajecki"
+    },
+    {
+      "rank": 383,
+      "player": "Dalila Jakupovic"
+    },
+    {
+      "rank": 384,
       "player": "Yidi Yang"
     },
     {
-      "rank": 388,
-      "player": "Lucija Ciric Bagaric"
-    },
-    {
-      "rank": 389,
-      "player": "Stephanie Visscher"
-    },
-    {
-      "rank": 390,
-      "player": "Olga Danilovic"
-    },
-    {
-      "rank": 391,
-      "player": "Kaja Juvan"
-    },
-    {
-      "rank": 392,
-      "player": "Julie Belgraver"
-    },
-    {
-      "rank": 393,
-      "player": "Naho Sato"
-    },
-    {
-      "rank": 394,
-      "player": "Sonja Zhiyenbayeva"
-    },
-    {
-      "rank": 395,
-      "player": "Emma Lene"
-    },
-    {
-      "rank": 396,
-      "player": "Kira Pavlova"
-    },
-    {
-      "rank": 397,
-      "player": "Diletta Cherubini"
-    },
-    {
-      "rank": 398,
-      "player": "Denisa Zoldakova"
-    },
-    {
-      "rank": 399,
-      "player": "Beatrise Zeltina"
-    },
-    {
-      "rank": 400,
-      "player": "Natsumi Kawaguchi"
-    },
-    {
-      "rank": 401,
+      "rank": 385,
       "player": "Raluca Serban"
     },
     {
-      "rank": 402,
-      "player": "Aneta Laboutkova"
+      "rank": 386,
+      "player": "Eva Guerrero Alvarez"
     },
     {
-      "rank": 403,
-      "player": "Iva Primorac"
+      "rank": 387,
+      "player": "Lucija Ciric Bagaric"
     },
     {
-      "rank": 404,
-      "player": "Nina Vargova"
+      "rank": 388,
+      "player": "Stephanie Visscher"
     },
     {
-      "rank": 405,
-      "player": "Xinran Sun"
+      "rank": 389,
+      "player": "Olga Danilovic"
     },
     {
-      "rank": 406,
-      "player": "Yujia Huang"
-    },
-    {
-      "rank": 407,
+      "rank": 390,
       "player": "Lan Mi"
     },
     {
-      "rank": 408,
-      "player": "Chengyiyi Yuan"
+      "rank": 391,
+      "player": "Sonja Zhiyenbayeva"
     },
     {
-      "rank": 409,
+      "rank": 392,
+      "player": "Vaidehi Chaudhari"
+    },
+    {
+      "rank": 393,
+      "player": "Emma Lene"
+    },
+    {
+      "rank": 394,
+      "player": "Kira Pavlova"
+    },
+    {
+      "rank": 395,
+      "player": "Naho Sato"
+    },
+    {
+      "rank": 396,
+      "player": "Martina Colmegna"
+    },
+    {
+      "rank": 397,
+      "player": "Denisa Zoldakova"
+    },
+    {
+      "rank": 398,
+      "player": "Beatrise Zeltina"
+    },
+    {
+      "rank": 399,
+      "player": "Diletta Cherubini"
+    },
+    {
+      "rank": 400,
+      "player": "Aneta Laboutkova"
+    },
+    {
+      "rank": 401,
+      "player": "Yujia Huang"
+    },
+    {
+      "rank": 402,
+      "player": "Weronika Ewald"
+    },
+    {
+      "rank": 403,
       "player": "Sandra Samir"
     },
     {
+      "rank": 404,
+      "player": "Justina Gonzalez Daniele"
+    },
+    {
+      "rank": 405,
+      "player": "Chengyiyi Yuan"
+    },
+    {
+      "rank": 406,
+      "player": "Momoko Kobori"
+    },
+    {
+      "rank": 407,
+      "player": "Iva Primorac"
+    },
+    {
+      "rank": 408,
+      "player": "Mio Mushika"
+    },
+    {
+      "rank": 409,
+      "player": "Nina Vargova"
+    },
+    {
       "rank": 410,
-      "player": "Valentina Ivanov"
+      "player": "Julie Belgraver"
     },
     {
       "rank": 411,
@@ -1649,111 +1649,111 @@
     },
     {
       "rank": 412,
-      "player": "Eri Shimizu"
+      "player": "Valentina Ivanov"
     },
     {
       "rank": 413,
-      "player": "Vaidehi Chaudhari"
-    },
-    {
-      "rank": 414,
-      "player": "Lamis Alhussein Abdel Aziz"
-    },
-    {
-      "rank": 415,
-      "player": "Alice Rame"
-    },
-    {
-      "rank": 416,
-      "player": "Beatriz Haddad Maia"
-    },
-    {
-      "rank": 417,
-      "player": "Katerina Tsygourova"
-    },
-    {
-      "rank": 418,
-      "player": "Jiaqi Wang"
-    },
-    {
-      "rank": 419,
-      "player": "Reina Goto"
-    },
-    {
-      "rank": 420,
-      "player": "Martina Colmegna"
-    },
-    {
-      "rank": 421,
-      "player": "Justina Gonzalez Daniele"
-    },
-    {
-      "rank": 422,
-      "player": "Rinko Matsuda"
-    },
-    {
-      "rank": 423,
-      "player": "Wushuang Zheng"
-    },
-    {
-      "rank": 424,
-      "player": "Emily Appleton"
-    },
-    {
-      "rank": 425,
       "player": "Diana Martynov"
     },
     {
-      "rank": 426,
-      "player": "Anna Rogers"
+      "rank": 414,
+      "player": "Eri Shimizu"
     },
     {
-      "rank": 427,
+      "rank": 415,
       "player": "Angella Okutoyi"
     },
     {
-      "rank": 428,
-      "player": "Hikaru Sato"
-    },
-    {
-      "rank": 429,
-      "player": "Tena Lukas"
-    },
-    {
-      "rank": 430,
-      "player": "Isabella Shinikova"
-    },
-    {
-      "rank": 431,
-      "player": "Carmen Gallardo Guevara"
-    },
-    {
-      "rank": 432,
-      "player": "Victoria Milovanova"
-    },
-    {
-      "rank": 433,
-      "player": "Mio Mushika"
-    },
-    {
-      "rank": 434,
-      "player": "Adrienn Nagy"
-    },
-    {
-      "rank": 435,
-      "player": "Sapfo Sakellaridi"
-    },
-    {
-      "rank": 436,
-      "player": "Charo Esquiva Banuls"
-    },
-    {
-      "rank": 437,
+      "rank": 416,
       "player": "Tiphanie Lemaitre"
     },
     {
-      "rank": 438,
+      "rank": 417,
+      "player": "Valeriya Strakhova"
+    },
+    {
+      "rank": 418,
+      "player": "Natsumi Kawaguchi"
+    },
+    {
+      "rank": 419,
+      "player": "Lamis Alhussein Abdel Aziz"
+    },
+    {
+      "rank": 420,
+      "player": "Alice Rame"
+    },
+    {
+      "rank": 421,
+      "player": "Lia Karatancheva"
+    },
+    {
+      "rank": 422,
+      "player": "Laura Mair"
+    },
+    {
+      "rank": 423,
+      "player": "Sahaja Yamalapalli"
+    },
+    {
+      "rank": 424,
+      "player": "Beatriz Haddad Maia"
+    },
+    {
+      "rank": 425,
+      "player": "Katerina Tsygourova"
+    },
+    {
+      "rank": 426,
+      "player": "Jiaqi Wang"
+    },
+    {
+      "rank": 427,
+      "player": "Charo Esquiva Banuls"
+    },
+    {
+      "rank": 428,
+      "player": "Marie Vogt"
+    },
+    {
+      "rank": 429,
+      "player": "Rinko Matsuda"
+    },
+    {
+      "rank": 430,
+      "player": "Victoria Milovanova"
+    },
+    {
+      "rank": 431,
+      "player": "Emily Appleton"
+    },
+    {
+      "rank": 432,
+      "player": "Carmen Gallardo Guevara"
+    },
+    {
+      "rank": 433,
+      "player": "Antonia Vergara Rivera"
+    },
+    {
+      "rank": 434,
+      "player": "Anna Rogers"
+    },
+    {
+      "rank": 435,
       "player": "Cagla Buyukakcay"
+    },
+    {
+      "rank": 436,
+      "player": "Adrienn Nagy"
+    },
+    {
+      "rank": 437,
+      "player": "Tena Lukas"
+    },
+    {
+      "rank": 438,
+      "player": "Isabella Shinikova"
     },
     {
       "rank": 439,
@@ -1761,31 +1761,31 @@
     },
     {
       "rank": 440,
-      "player": "Thea Frodin"
+      "player": "Reina Goto"
     },
     {
       "rank": 441,
-      "player": "Laura Mair"
+      "player": "Sapfo Sakellaridi"
     },
     {
       "rank": 442,
-      "player": "Jana Kovackova"
+      "player": "Anna Kubareva"
     },
     {
       "rank": 443,
-      "player": "Camilla Zanolini"
+      "player": "Thea Frodin"
     },
     {
       "rank": 444,
-      "player": "Natalija Senic"
+      "player": "Jana Kovackova"
     },
     {
       "rank": 445,
-      "player": "Irina-Camelia Begu"
+      "player": "Natalija Senic"
     },
     {
       "rank": 446,
-      "player": "Annika Penickova"
+      "player": "Irina-Camelia Begu"
     },
     {
       "rank": 447,
@@ -1793,7 +1793,7 @@
     },
     {
       "rank": 448,
-      "player": "Ekaterina Maklakova"
+      "player": "Kayo Nishimura"
     },
     {
       "rank": 449,
@@ -1801,19 +1801,19 @@
     },
     {
       "rank": 450,
-      "player": "Mingge Xu"
+      "player": "Esther Adeshina"
     },
     {
       "rank": 451,
-      "player": "Antonia Vergara Rivera"
+      "player": "Carmen Andreea Herea"
     },
     {
       "rank": 452,
-      "player": "Misaki Matsuda"
+      "player": "Fernanda Labrana"
     },
     {
       "rank": 453,
-      "player": "Marie Vogt"
+      "player": "Kaja Juvan"
     },
     {
       "rank": 454,
@@ -1825,35 +1825,35 @@
     },
     {
       "rank": 456,
-      "player": "Amarissa Toth"
+      "player": "Ekaterina Maklakova"
     },
     {
       "rank": 457,
-      "player": "Amandine Hesse"
+      "player": "Amarissa Toth"
     },
     {
       "rank": 458,
-      "player": "Ekaterina Perelygina"
+      "player": "Amandine Hesse"
     },
     {
       "rank": 459,
-      "player": "Dana Guzman"
+      "player": "Margaux Maquet"
     },
     {
       "rank": 460,
-      "player": "Anja Stankovic"
+      "player": "Nauhany Vitoria Leme Da Silva"
     },
     {
       "rank": 461,
-      "player": "Priska Nugroho"
-    },
-    {
-      "rank": 462,
       "player": "Maria Garcia Cid"
     },
     {
+      "rank": 462,
+      "player": "Nahia Berecoechea"
+    },
+    {
       "rank": 463,
-      "player": "Esther Adeshina"
+      "player": "Camilla Zanolini"
     },
     {
       "rank": 464,
@@ -1865,143 +1865,143 @@
     },
     {
       "rank": 466,
-      "player": "Daria Yesypchuk"
+      "player": "Ekaterina Perelygina"
     },
     {
       "rank": 467,
-      "player": "Eunhye Lee"
+      "player": "Daria Yesypchuk"
     },
     {
       "rank": 468,
-      "player": "Luiza Fullana"
+      "player": "Eunhye Lee"
     },
     {
       "rank": 469,
-      "player": "Zhibek Kulambayeva"
+      "player": "Luiza Fullana"
     },
     {
       "rank": 470,
-      "player": "Fernanda Labrana"
-    },
-    {
-      "rank": 471,
-      "player": "Jodie Burrage"
-    },
-    {
-      "rank": 472,
-      "player": "Denislava Glushkova"
-    },
-    {
-      "rank": 473,
-      "player": "Vittoria Paganetti"
-    },
-    {
-      "rank": 474,
-      "player": "Jiayi Wang"
-    },
-    {
-      "rank": 475,
-      "player": "Ruth Roura Llaverias"
-    },
-    {
-      "rank": 476,
-      "player": "Marie Mettraux"
-    },
-    {
-      "rank": 477,
-      "player": "Tatiana Pieri"
-    },
-    {
-      "rank": 478,
-      "player": "Viola Turini"
-    },
-    {
-      "rank": 479,
-      "player": "Pia Lovric"
-    },
-    {
-      "rank": 480,
-      "player": "Celia Cervino Ruiz"
-    },
-    {
-      "rank": 481,
-      "player": "Ena Shibahara"
-    },
-    {
-      "rank": 482,
-      "player": "Nahia Berecoechea"
-    },
-    {
-      "rank": 483,
-      "player": "Amelia Honer"
-    },
-    {
-      "rank": 484,
-      "player": "Alana Smith"
-    },
-    {
-      "rank": 485,
-      "player": "Rasheeda Mcadoo"
-    },
-    {
-      "rank": 486,
       "player": "Laura Hietaranta"
     },
     {
+      "rank": 471,
+      "player": "Anja Stankovic"
+    },
+    {
+      "rank": 472,
+      "player": "Annika Penickova"
+    },
+    {
+      "rank": 473,
+      "player": "Zhibek Kulambayeva"
+    },
+    {
+      "rank": 474,
+      "player": "Jodie Burrage"
+    },
+    {
+      "rank": 475,
+      "player": "Denislava Glushkova"
+    },
+    {
+      "rank": 476,
+      "player": "Jiayi Wang"
+    },
+    {
+      "rank": 477,
+      "player": "Ruth Roura Llaverias"
+    },
+    {
+      "rank": 478,
+      "player": "Wushuang Zheng"
+    },
+    {
+      "rank": 479,
+      "player": "Marie Mettraux"
+    },
+    {
+      "rank": 480,
+      "player": "Dana Guzman"
+    },
+    {
+      "rank": 481,
+      "player": "Nina Radovanovic"
+    },
+    {
+      "rank": 482,
+      "player": "Tatiana Pieri"
+    },
+    {
+      "rank": 483,
+      "player": "Viola Turini"
+    },
+    {
+      "rank": 484,
+      "player": "Celia Cervino Ruiz"
+    },
+    {
+      "rank": 485,
+      "player": "Ena Shibahara"
+    },
+    {
+      "rank": 486,
+      "player": "Priska Nugroho"
+    },
+    {
       "rank": 487,
-      "player": "Valeriya Strakhova"
+      "player": "Alana Smith"
     },
     {
       "rank": 488,
-      "player": "Maria Martinez Vaquero"
+      "player": "Amelia Honer"
     },
     {
       "rank": 489,
-      "player": "Oceane Babel"
+      "player": "Mingge Xu"
     },
     {
       "rank": 490,
-      "player": "Lucie Petruzelova"
+      "player": "Misaki Matsuda"
     },
     {
       "rank": 491,
-      "player": "Anna Kubareva"
+      "player": "Carson Tanguilig"
     },
     {
       "rank": 492,
-      "player": "Ekaterina Tupitsyna"
+      "player": "Dunja Maric"
     },
     {
       "rank": 493,
-      "player": "Aunchisa Chanta"
+      "player": "Maria Martinez Vaquero"
     },
     {
       "rank": 494,
-      "player": "Elena Korokozidi"
+      "player": "Oceane Babel"
     },
     {
       "rank": 495,
-      "player": "Valentini Grammatikopoulou"
+      "player": "Lucie Petruzelova"
     },
     {
       "rank": 496,
-      "player": "Kristina Penickova"
+      "player": "Valentini Grammatikopoulou"
     },
     {
       "rank": 497,
-      "player": "Ana Grubor"
+      "player": "Elena Korokozidi"
     },
     {
       "rank": 498,
-      "player": "Elina Nepliy"
+      "player": "Kristina Penickova"
     },
     {
       "rank": 499,
-      "player": "Ya Yi Yang"
+      "player": "Ekaterina Tupitsyna"
     },
     {
       "rank": 500,
-      "player": "Marta Lombardini"
+      "player": "Astra Sharma"
     }
   ]
 }
